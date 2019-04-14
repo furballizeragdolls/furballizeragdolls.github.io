@@ -1,3 +1,27 @@
+a:hover {
+  color: #e78b90 !important;
+}
+
+a.btn-danger:hover {
+  color: white !important;
+}
+
+.img-male {
+  border-color: rgb(50, 126, 197);
+}
+
+.img-female {
+  border-color: #e78b90;
+}
+
+.fa-mars {
+  color:rgb(50, 126, 197);
+}
+
+.fa-venus {
+  color:#e78b90;
+}
+
 .navbar .container {
   width: 95%;
 }
@@ -10,3 +34,15 @@
   background: rgba(204, 204, 204, 0.2);
 }
 
+.footer {
+  .contact {
+    ul li {
+      float: left;
+      margin-right: 1em;
+      list-style: none;
+    }
+  }
+  .copyright {
+    text-align: right;
+  }
+}
