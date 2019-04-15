@@ -88,13 +88,19 @@ a {
 
 .footer {
   .contact {
-    ul li {
-      float: left;
-      margin-right: 1em;
-      list-style: none;
+    ul {
+      li {
+        float: left;
+        margin-right: 1em;
+        list-style: none;
+      }
     }
   }
-  .copyright {
-    text-align: right;
+  .footer-text {
+    padding: 9px 5px;
+    p {
+      width: 100%;
+      text-align: center;
+    }
   }
 }
