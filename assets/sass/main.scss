@@ -12,7 +12,35 @@ a {
 }
 
 .info-icon img {
-  width: 40%;
+  width: 33%;
+}
+
+.card {
+  ul {
+    padding-left: 2em;
+    li {
+      color: #555;
+      text-align: left;
+      font-size: 0.9em;
+    }
+  }
+  .title {
+    font-weight: bold;
+  }
+  .content {
+    padding: 2em 1.2em;
+  }
+  .small-text {
+    font-weight: bold;
+  }
+}
+
+.text-male {
+  color: $male-color;
+}
+
+.text-female {
+  color: $female-color;
 }
 
 .img-male {
@@ -29,10 +57,6 @@ a {
 
 .fa-venus {
   color:$female-color;
-}
-
-.small-text {
-  font-weight: bold;
 }
 
 .navbar .container {
