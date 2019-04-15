@@ -60,6 +60,12 @@ a {
   color: $female-color;
 }
 
+.text-half-red-blue {
+  background: -webkit-linear-gradient($female-color, rgb(211, 202, 202), $male-color);
+              -webkit-background-clip: text;
+              -webkit-text-fill-color: transparent;
+}
+
 .img-male {
   border-color: $male-color;
 }
