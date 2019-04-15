@@ -87,10 +87,18 @@ a {
 }
 
 .footer {
+  padding: 1.5em;
   .contact {
     ul {
+      padding: 0;
+      text-align:center;
+      margin-bottom: 0;
+      margin-top: 0;
+      a {
+        margin-bottom: 0;
+      }
       li {
-        float: left;
+        display: inline;
         margin-right: 1em;
         list-style: none;
       }
@@ -101,6 +109,7 @@ a {
     p {
       width: 100%;
       text-align: center;
+      margin-bottom: 0;
     }
   }
 }
