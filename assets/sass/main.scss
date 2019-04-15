@@ -15,6 +15,19 @@ a {
   width: 33%;
 }
 
+.title-area {
+  h1 {
+    @media screen and (max-width: 765px) {
+      font-size: 2.5em !important;
+    }
+  }
+  p {
+    @media screen and (max-width: 765px) {
+      font-size: 0.9em !important;
+    }
+  }
+}
+
 .card {
   ul {
     padding-left: 2em;
@@ -61,6 +74,11 @@ a {
 
 .navbar .container {
   width: 95%;
+}
+
+.navbar-brand {
+  border: 1px solid rgb(189, 189, 189);
+  border-radius: 10px;
 }
 
 .collapse.navbar-collapse ul li a i {
