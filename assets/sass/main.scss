@@ -1,5 +1,7 @@
+@import 'partials/variables';
+
 a:hover {
-  color: #e78b90 !important;
+  color: $default-color !important;
 }
 
 a.btn-danger:hover {
@@ -7,19 +9,19 @@ a.btn-danger:hover {
 }
 
 .img-male {
-  border-color: rgb(50, 126, 197);
+  border-color: $male-color;
 }
 
 .img-female {
-  border-color: #e78b90;
+  border-color: $female-color;
 }
 
 .fa-mars {
-  color:rgb(50, 126, 197);
+  color: $male-color;
 }
 
 .fa-venus {
-  color:#e78b90;
+  color:$female-color;
 }
 
 .navbar .container {
@@ -32,10 +34,6 @@ a.btn-danger:hover {
 
 .filter.filter-color-gray:before {
   background: rgba(204, 204, 204, 0.2);
-}
-
-.bg-right-shift {
-  left: -8px;
 }
 
 .footer {
