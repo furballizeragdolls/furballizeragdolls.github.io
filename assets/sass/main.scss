@@ -1,11 +1,18 @@
 @import 'partials/variables';
+@import url(https://fonts.googleapis.com/earlyaccess/cwtexyen.css);
 
-a:hover {
-  color: $default-color !important;
+a {
+  &:hover {
+    color: $default-color !important;
+  }
+
+  &.btn-danger:hover {
+    color: white !important;
+  }
 }
 
-a.btn-danger:hover {
-  color: white !important;
+.info-icon img {
+  width: 40%;
 }
 
 .img-male {
@@ -22,6 +29,10 @@ a.btn-danger:hover {
 
 .fa-venus {
   color:$female-color;
+}
+
+.small-text {
+  font-weight: bold;
 }
 
 .navbar .container {
