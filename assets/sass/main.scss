@@ -29,6 +29,15 @@ p {
   }
 }
 
+#kittens {
+  ul {
+    li {
+      padding-left: 0.5em;
+      margin-bottom: 0.5em;
+    }
+  }
+}
+
 #application {
   .container {
     margin-bottom: 5em;
@@ -57,12 +66,6 @@ p {
   p {
     @media screen and (max-width: 765px) {
       font-size: 0.9em !important;
-    }
-  }
-  ul {
-    li {
-      padding-left: 0.5em;
-      margin-bottom: 0.5em;
     }
   }
 }
