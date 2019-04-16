@@ -11,6 +11,13 @@ a {
   }
 }
 
+p {
+  a {
+    text-decoration: underline;
+    text-decoration-style: dotted;
+  }
+}
+
 #about {
   .title-area {
     max-width: 820px;
