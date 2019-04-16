@@ -20,6 +20,12 @@ p {
 
 #about {
   .info-icon {
+    .icon {
+      height: 15vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
     img {
       width: 33%;
     }
