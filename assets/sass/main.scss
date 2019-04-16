@@ -12,6 +12,12 @@ a {
 }
 
 #about {
+  .title-area {
+    max-width: 820px;
+    p {
+      text-align: left;
+    }
+  }
   .info-icon {
     img {
       width: 33%;
