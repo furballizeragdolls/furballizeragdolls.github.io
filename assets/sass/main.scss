@@ -33,8 +33,9 @@ a {
 }
 
 .card {
+  height: 35em;
   ul {
-    padding-left: 2em;
+    padding-left: 1em;
     li {
       color: #555;
       text-align: left;
@@ -49,6 +50,9 @@ a {
   }
   .small-text {
     font-weight: bold;
+  }
+  .description {
+    text-align: left;
   }
 }
 
