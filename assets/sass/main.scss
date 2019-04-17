@@ -4,6 +4,7 @@
 a {
   &:hover {
     color: $default-color !important;
+    border-color: $default-color !important;
   }
 
   &.btn-danger:hover {
