@@ -41,7 +41,7 @@ p {
 
 #kings-and-queens {
   .card {
-    height: 60vh;
+    height: 62vh;
     ul {
       padding-left: 1em;
       li {
@@ -65,6 +65,12 @@ p {
     }
     .hidden {
       display: none;
+    }
+    .certificate {
+      text-align: center;
+      a {
+        margin: 0 auto;
+      }
     }
   }
 }
