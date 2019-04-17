@@ -147,17 +147,11 @@ layout: default
                                             </div>
                                         </div>
                                     </a>
-                                    <a href="https://unsplash.it/1200/768.jpg?image=252" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
-                                        <img src="https://unsplash.it/600.jpg?image=252" class="img-fluid hidden">
-                                    </a>
-                                    <a href="https://unsplash.it/1200/768.jpg?image=253" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
-                                        <img src="https://unsplash.it/600.jpg?image=253" class="img-fluid hidden">
-                                    </a>
                                 </div>
                             </div>
                             <div class="col-md-4">
                                 <div class="card card-member">
-                                    <a href="https://unsplash.it/1200/768.jpg?image=251" data-toggle="lightbox" data-gallery="example-gallery" data-type="image">
+                                    <a href="assets/img/lulu-gallery/lulu-1.jpg" data-toggle="lightbox" data-gallery="lulu-gallery" data-type="image">
                                         <div class="content">
                                             <div class="avatar img-female">
                                                 <img alt="..." class="img-circle" src="assets/img/lulu-profile.jpg"/>
@@ -177,6 +171,12 @@ layout: default
                                             </div>
                                         </div>
                                     </a>
+                                    <!-- lulu gallery -->
+                                    {% for i in (1..10) %}
+                                    <a href="assets/img/lulu-gallery/lulu-{{ i }}.jpg" data-toggle="lightbox" data-gallery="lulu-gallery" class="col-sm-4">
+                                        <img src="assets/img/lulu-gallery/lulu-{{ i }}.jpg" class="img-fluid hidden">
+                                    </a>
+                                    {% endfor %}
                                 </div>
                             </div>
                             <div class="col-md-4">
@@ -198,6 +198,13 @@ layout: default
                                                 <p class="description">I miss the old Kanye I gotta say at that time I’d like to meet Kanye And I promise the power is in the people and I will use the power given by the people to bring everything I have back to the people.</p>
                                             </div>
                                         </div>
+                                    </a>
+                                    <!-- example gallery -->
+                                    <a href="https://unsplash.it/1200/768.jpg?image=252" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
+                                        <img src="https://unsplash.it/600.jpg?image=252" class="img-fluid hidden">
+                                    </a>
+                                    <a href="https://unsplash.it/1200/768.jpg?image=253" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
+                                        <img src="https://unsplash.it/600.jpg?image=253" class="img-fluid hidden">
                                     </a>
                                 </div>
                             </div>
