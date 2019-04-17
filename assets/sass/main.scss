@@ -85,6 +85,14 @@ p {
 }
 
 #application {
+  table {
+    width: 50%;
+    margin: 2em auto;
+    text-align: center;
+    th {
+      text-align: center;
+    }
+  }
   .container {
     margin-bottom: 5em;
   }
@@ -96,6 +104,9 @@ p {
   }
   .title-area {
     margin-bottom: 3em;
+  }
+  .description {
+    text-align: left;
   }
 }
 
