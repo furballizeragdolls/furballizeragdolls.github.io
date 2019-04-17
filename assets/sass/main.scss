@@ -38,6 +38,36 @@ p {
   }
 }
 
+#kings-and-queens {
+  .card {
+    height: 60vh;
+    ul {
+      padding-left: 1em;
+      li {
+        color: rgb(48, 48, 48);
+        text-align: left;
+        font-size: 0.9em;
+      }
+    }
+    .title {
+      font-weight: bold;
+    }
+    .content {
+      padding: 2em 1.2em;
+    }
+    .small-text {
+      font-weight: bold;
+    }
+    .description {
+      text-align: left;
+      font-size: 1em;
+    }
+    .hidden {
+      display: none;
+    }
+  }
+}
+
 #kittens {
   ul {
     li {
@@ -76,33 +106,6 @@ p {
     @media screen and (max-width: 765px) {
       font-size: 0.9em !important;
     }
-  }
-}
-
-.card {
-  height: 30em;
-  ul {
-    padding-left: 1em;
-    li {
-      color: #555;
-      text-align: left;
-      font-size: 0.9em;
-    }
-  }
-  .title {
-    font-weight: bold;
-  }
-  .content {
-    padding: 2em 1.2em;
-  }
-  .small-text {
-    font-weight: bold;
-  }
-  .description {
-    text-align: left;
-  }
-  .hidden {
-    display: none;
   }
 }
 
