@@ -3,8 +3,7 @@ description: 波波球布偶貓舍位於高雄，為 TICA/CFA 註冊合格貓舍
 author: https://tsoliangwu.com/
 lang: zh-Hans-TW
 logo: /assets/img/site-image.png
-image:
-  path: /assets/img/site-image.png
+image: /assets/img/site-image.png
 
 baseurl:
 url: https://furballizeragdolls.github.io/
