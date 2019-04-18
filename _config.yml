@@ -14,3 +14,6 @@ kramdown:
 syntax_highlighter: rouge
 exclude: ['README.md']
 permalink: pretty
+
+plugins:
+  - jekyll-sitemap
