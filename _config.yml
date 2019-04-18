@@ -16,6 +16,12 @@ social:
   links:
     - https://www.facebook.com/furballchubbymeow
 
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/img/site-image.png
+
 highlighter: rouge
 markdown: kramdown
 kramdown:
