@@ -2,360 +2,234 @@
 layout: default
 ---
 
-<body>
-    <nav class="navbar navbar-default navbar-transparent navbar-fixed-top" color-on-scroll="200">
-        <!-- if you want to keep the navbar hidden you can add this class to the navbar "navbar-burger"-->
+{% include index_navbar.html %}
+
+<div class="section section-header">
+    <div class="parallax filter filter-color-gray">
+        <div class="image" style="background-image: url('/assets/img/header-1.jpg')"></div>
         <div class="container">
-            <div class="navbar-header">
-                <button id="menu-toggle" type="button" class="navbar-toggle" data-toggle="collapse" data-target="#">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar bar1"></span>
-                    <span class="icon-bar bar2"></span>
-                    <span class="icon-bar bar3"></span>
-                </button>
-                <a href="#" class="navbar-brand">波波球布偶貓舍</a>
+            <div class="content">
+                <div class="title-area">
+                    <p>Furballize Ragdolls Cattery</p>
+                    <h1 class="title-modern">波波球布偶貓舍</h1>
+                    <div class="separator line-separator"><i class="fas fa-paw"></i></div>
+                </div>
+
+                <div class="button-get-started">
+                    <a href="#about" class="btn btn-white btn-fill btn-lg scrolly">Learn more</a>
+                </div>
             </div>
-            <div class="collapse navbar-collapse">
-                <ul class="nav navbar-nav navbar-right navbar-uppercase">
-                    <li>
-                        <a href="#about" class="scrolly">About us</a>
-                    </li>
-                    <li>
-                        <a href="#kings-and-queens" class="scrolly">Kings & Queens</a>
-                    </li>
-                    <li>
-                        <a href="#kittens" class="scrolly">Kittens</a>
-                    </li>
-                    <li>
-                        <a href="#application" class="scrolly">Application</a>
-                    </li>
-                    <li>
-                        <a href="#faq" class="scrolly">FAQ</a>
-                    </li>
+
+        </div>
+    </div>
+</div>
+
+<div class="section" id="about">
+    <div class="container">
+        <div class="row">
+            <div class="title-area">
+                <h2>About us</h2>
+                <div class="separator separator-danger"><i class="fas fa-paw"></i></div>
+                <p class="description">
+                    幾年前養了第一隻寵物布偶貓 - Furball。布偶貓迷人的特質使我們深深愛上了這個品種，想要成立貓舍的想法也因此越來越強烈。經過一番學習與努力後，波波球布偶貓舍正式在高雄取得特寵業許可證（特寵業繁字第 W1070462 號），並註冊於 <a href="https://tica.org/">The International Cat Association (TICA)</a> 及 <a href="http://www.cfa.org/">Cat Fanciers' Association (CFA)</a> 下。因為喜愛，所以踏上繁育之路，每一隻貓咪都是珍貴、特別的存在，就跟大家的寵物一樣，貓咪們就是我們家庭生活的一部分。我們會在這裡分享波波球布偶貓舍的培育理念並隨時公布貓舍最新消息。也歡迎大家按讚及追蹤我們的 <a href="https://www.facebook.com/furballizerags">Facebook</a> 粉絲專頁以及 <a href="https://www.instagram.com/furballizeragdolls">Instagram</a>！
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="info-icon">
+                    <div class="icon text-danger">
+                        <i class="fas fa-heartbeat"></i>
+                    </div>
+                    <h3>健康保證</h3>
+                    <p class="description">
+                        在維持血統純正的情況下持續健康且負責任的繁育是我們最重要的目標。所有的貓爸爸、貓媽媽都是我們精挑細選從世界各國進口來台以增加貓舍的基因多樣性。除此之外，所有貓咪都必須經過貓白血病病毒(FeLV) 與貓免疫缺陷病毒(FIV) 血檢，還有肥厚性心肌病變 (HCM) 與貓多囊性腎臟病(PKD) 等等的基因檢測，確認健康無虞，沒有遺傳性疾病後才能進行繁育。因為對基因健康有自信，我們提供每隻波波球小貓 18 個月的 HCM/PKD 基因遺傳疾病健康保證。
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="info-icon">
+                    <div class="icon">
+                        <img alt="TICA logo" src="/assets/img/tica-logo.png"/>
+                        <img alt="CFA logo" src="/assets/img/cfa-logo.png"/>
+                    </div>
+                    <h3>TICA & CFA</h3>
+                    <p class="description">我們是 TICA 與 CFA 雙註冊的合格貓舍。除了每隻貓咪都有 TICA 或 CFA 國際貓協登錄單以外，我們也以遵守本地政府與貓協的相關規定為原則，重質不重量，讓每隻貓媽媽一年生一胎，最多兩年三胎，且提供貓咪們一個良好的生活環境（24 小時冷氣、多個寬敞的貓房與公共空間），來進行繁育計畫。波波球也會努力透過從世界各地引進新的血統來改良、加強品項特徵，並以繁育出最貼近現有 TICA/CFA 品種標準下的布偶貓為目標。</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="info-icon">
+                    <div class="icon text-danger">
+                        <i class="fas fa-cat"></i>
+                    </div>
+                    <h3>社會化</h3>
+                    <p class="description">
+                        我們希望波波球的每隻布偶貓都擁有厚實的骨量、湛藍的杏眼、甜美的臉蛋、絲綢般的貓毛，還有最重要的－良好性格。雖然一般來說布偶貓本身個性就十分溫和，然而我們相信，小貓經過合適的社會化後（包含母貓及小貓們之間的互動還有與人類的相處），你能在最短時間內明顯感受到小貓對人類的信賴與良好的家教，更能縮短小貓與家長及家中其他動物的磨合期。因此，我們的小貓出生後必須在貓舍待滿至少 12 - 16 週，學會使用貓砂，並且完成結紮手術後才能離開貓舍。
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="section section-our-team-freebie" id="kings-and-queens">
+    <div class="parallax filter filter-color-black">
+        <div class="image" style="background-image:url('/assets/img/header-2.jpg')">
+        </div>
+        <div class="container">
+            <div class="content">
+                <div class="row">
+                    <div class="title-area">
+                        <h2>Kings & Queens</h2>
+                        <div class="separator separator-danger"><i class="fas fa-paw"></i></div>
+                        <p class="description">波波球布偶貓舍的主要成員介紹。點選每隻貓咪的卡片可以看到更多可愛的照片、頭銜證書與基因檢測資料喔！</p>
+                    </div>
+                </div>
+
+                <div class="team">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="card card-member">
+                                <a href="/assets/img/leo-gallery/leo-1.jpg" data-toggle="lightbox" data-gallery="leo-gallery" data-type="image">
+                                    <div class="content">
+                                        <div class="avatar img-male">
+                                            <img alt="Leo profile photo" class="img-circle" src="/assets/img/leo-profile.jpg"/>
+                                        </div>
+                                        <div class="description">
+                                            <h3 class="title">Leo <i class="fas fa-mars text-male"></i></h3>
+                                            <p class="small-text text-male">QGC Lynfield Rolling Leo of Furballize</p>
+                                            <ul>
+                                                <li>顏色：藍雙色 (Blue Bicolor)</li>
+                                                <li>爸爸：RW SGC Furreal Polaris of Dolcemadre</li>
+                                                <li>媽媽：RW CH Ragmagic Princess KAKO of Lynfield</li>
+                                            </ul>
+                                            <hr>
+                                            <p class="description">
+                                                來自日本的 Leo 是美國與德國知名老牌貓舍的結晶，並在日本 TICA 賽事中得到 QGC (Quadruple Grand Champion) 的殊榮。除了血統優秀，平時在家路倒、討摸的技能更是一流！
+                                            </p>
+                                        </div>
+                                    </div>
+                                </a>
+                                <div class="certificate">
+                                    <a href="/assets/img/leo-certificates-gallery/leo-1.png" data-toggle="lightbox" data-type="image" class="btn btn-danger btn-fill btn-md">基因檢測報告</a>
+                                </div>
+                                <!-- leo gallery -->
+                                {% for i in (2..8) %}
+                                <div data-remote="/assets/img/leo-gallery/leo-{{ i }}.jpg" data-toggle="lightbox" data-gallery="leo-gallery" class="col-sm-4"></div>
+                                {% endfor %}
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card card-member">
+                                <a href="/assets/img/lulu-gallery/lulu-1.jpg" data-toggle="lightbox" data-gallery="lulu-gallery" data-type="image">
+                                    <div class="content">
+                                        <div class="avatar img-female">
+                                            <img alt="LuLu profile photo" class="img-circle" src="/assets/img/lulu-profile.jpg"/>
+                                        </div>
+                                        <div class="description">
+                                            <h3 class="title">LuLu <i class="fas fa-venus text-female"></i></h3>
+                                            <p class="small-text text-female">Appledolls SwankyLuLu of Furballize</p>
+                                            <ul>
+                                                <li>顏色：藍手套色 (Blue Mitted)</li>
+                                                <li>爸爸：QGC DKKittyrags Minik of Appledolls</li>
+                                                <li>媽媽：Furreal Sweet Agave of Appledolls</li>
+                                            </ul>
+                                            <hr>
+                                            <p class="description">
+                                                LuLu 的可愛無法言喻！興趣是吃東西，長期擔任波波球貓舍行政主廚，食物準備太慢會大叫抗議。適應力強，活潑愛玩，不論你的聚會有多少人，大方友善的 LuLu 都一定要參加！
+                                            </p>
+                                        </div>
+                                    </div>
+                                </a>
+                                <div class="certificate">
+                                    <a href="/assets/img/lulu-certificates-gallery/lulu-1.png" data-toggle="lightbox" data-type="image" class="btn btn-danger btn-fill btn-md">基因檢測報告</a>
+                                </div>
+                                <!-- lulu gallery -->
+                                {% for i in (2..10) %}
+                                <div data-remote="/assets/img/lulu-gallery/lulu-{{ i }}.jpg" data-toggle="lightbox" data-gallery="lulu-gallery" class="col-sm-4"></div>
+                                {% endfor %}
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card card-member">
+                                <a>
+                                    <div class="content">
+                                        <div class="avatar img-female">
+                                            <img alt="Coming soon photo" class="img-circle" src="/assets/img/coming-soon/coming-soon-4.png"/>
+                                        </div>
+                                        <div class="description">
+                                            <h3 class="title">Teacup <i class="fas fa-venus text-female"></i></h3>
+                                            <p class="small-text text-female">Coming soon</p>
+                                            <ul>
+                                                <li>顏色：海豹雙色 (Seal Bicolor)</li>
+                                                <li>爸爸：Coming soon</li>
+                                                <li>媽媽：Coming soon</li>
+                                            </ul>
+                                            <hr>
+                                            <p class="description">海豹雙色茶杯妹妹很快就會跟大家見面喔！</p>
+                                        </div>
+                                    </div>
+                                </a>
+                                <div class="certificate">
+                                    <a href="#" data-toggle="lightbox" data-type="image" class="btn btn-danger btn-fill btn-md disabled">基因檢測報告</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="section section-our-clients-freebie" id="kittens">
+    <div class="container">
+        <div class="title-area">
+            <h2>Kittens</h2>
+            <div class="separator separator-danger"><i class="fas fa-paw"></i></div>
+        </div>
+
+        <ul class="nav nav-text">
+            <li>
+                <a>
+                    <div class="image-clients">
+                        <img alt="Coming soon photo" class="img-circle" src="/assets/img/coming-soon/coming-soon-2.png"/>
+                    </div>
+                </a>
+            </li>
+        </ul>
+
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8">
+                <ul>
+                    <li>小貓價格包含 TICA/CFA 登錄單、結紮、驅蟲、兩劑預防針、晶片、寵物登記、特約獸醫師開立之健康證明，以及 18 個月 HCM、PKD 基因保障期。</li>
+                    <li>我們不出售任何未結紮的布偶貓，也不提供配種。</li>
+                    <li>很抱歉貓舍不對外開放，對我們有興趣的朋友，填妥預約單後我們會傳送貓咪照與影片給你挑選。</li>
+                    <li>我們的價格合理，請勿議價。</li>
                 </ul>
             </div>
-            <!-- /.navbar-collapse -->
-        </div>
-    </nav>
-
-    <div class="section section-header">
-        <div class="parallax filter filter-color-gray">
-            <div class="image" style="background-image: url('assets/img/header-1.jpg')"></div>
-            <div class="container">
-                <div class="content">
-                    <div class="title-area">
-                        <p>Furballize Ragdolls Cattery</p>
-                        <h1 class="title-modern">波波球布偶貓舍</h1>
-                        <div class="separator line-separator"><i class="fas fa-paw"></i></div>
-                    </div>
-
-                    <div class="button-get-started">
-                        <a href="#about" class="btn btn-white btn-fill btn-lg scrolly">Learn more</a>
-                    </div>
-                </div>
-
-            </div>
+            <div class="col-md-2"></div>
         </div>
     </div>
+</div>
 
-    <div class="section" id="about">
-        <div class="container">
-            <div class="row">
-                <div class="title-area">
-                    <h2>About us</h2>
-                    <div class="separator separator-danger"><i class="fas fa-paw"></i></div>
-                    <p class="description">
-                        幾年前養了第一隻寵物布偶貓 - Furball。布偶貓迷人的特質使我們深深愛上了這個品種，想要成立貓舍的想法也因此越來越強烈。經過一番學習與努力後，波波球布偶貓舍正式在高雄取得特寵業許可證（特寵業繁字第 W1070462 號），並註冊於 <a href="https://tica.org/">The International Cat Association (TICA)</a> 及 <a href="http://www.cfa.org/">Cat Fanciers' Association (CFA)</a> 下。因為喜愛，所以踏上繁育之路，每一隻貓咪都是珍貴、特別的存在，就跟大家的寵物一樣，貓咪們就是我們家庭生活的一部分。我們會在這裡分享波波球布偶貓舍的培育理念並隨時公布貓舍最新消息。也歡迎大家按讚及追蹤我們的 <a href="https://www.facebook.com/furballizerags">Facebook</a> 粉絲專頁以及 <a href="https://www.instagram.com/furballizeragdolls">Instagram</a>！
-                    </p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="info-icon">
-                        <div class="icon text-danger">
-                            <i class="fas fa-heartbeat"></i>
-                        </div>
-                        <h3>健康保證</h3>
-                        <p class="description">
-                            在維持血統純正的情況下持續健康且負責任的繁育是我們最重要的目標。所有的貓爸爸、貓媽媽都是我們精挑細選從世界各國進口來台以增加貓舍的基因多樣性。除此之外，所有貓咪都必須經過貓白血病病毒(FeLV) 與貓免疫缺陷病毒(FIV) 血檢，還有肥厚性心肌病變 (HCM) 與貓多囊性腎臟病(PKD) 等等的基因檢測，確認健康無虞，沒有遺傳性疾病後才能進行繁育。因為對基因健康有自信，我們提供每隻波波球小貓 18 個月的 HCM/PKD 基因遺傳疾病健康保證。
-                        </p>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="info-icon">
-                        <div class="icon">
-                            <img alt="TICA logo" src="assets/img/tica-logo.png"/>
-                            <img alt="CFA logo" src="assets/img/cfa-logo.png"/>
-                        </div>
-                        <h3>TICA & CFA</h3>
-                        <p class="description">我們是 TICA 與 CFA 雙註冊的合格貓舍。除了每隻貓咪都有 TICA 或 CFA 國際貓協登錄單以外，我們也以遵守本地政府與貓協的相關規定為原則，重質不重量，讓每隻貓媽媽一年生一胎，最多兩年三胎，且提供貓咪們一個良好的生活環境（24 小時冷氣、多個寬敞的貓房與公共空間），來進行繁育計畫。波波球也會努力透過從世界各地引進新的血統來改良、加強品項特徵，並以繁育出最貼近現有 TICA/CFA 品種標準下的布偶貓為目標。</p>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="info-icon">
-                        <div class="icon text-danger">
-                            <i class="fas fa-cat"></i>
-                        </div>
-                        <h3>社會化</h3>
-                        <p class="description">
-                            我們希望波波球的每隻布偶貓都擁有厚實的骨量、湛藍的杏眼、甜美的臉蛋、絲綢般的貓毛，還有最重要的－良好性格。雖然一般來說布偶貓本身個性就十分溫和，然而我們相信，小貓經過合適的社會化後（包含母貓及小貓們之間的互動還有與人類的相處），你能在最短時間內明顯感受到小貓對人類的信賴與良好的家教，更能縮短小貓與家長及家中其他動物的磨合期。因此，我們的小貓出生後必須在貓舍待滿至少 12 - 16 週，學會使用貓砂，並且完成結紮手術後才能離開貓舍。
-                        </p>
-                    </div>
-                </div>
-            </div>
+<div class="section section-small section-get-started" id="application">
+    <div class="parallax filter">
+        <div class="image"
+            style="background-image: url(/assets/img/repeated-background.jpg)">
         </div>
-    </div>
-
-    <div class="section section-our-team-freebie" id="kings-and-queens">
-        <div class="parallax filter filter-color-black">
-            <div class="image" style="background-image:url('assets/img/header-2.jpg')">
-            </div>
-            <div class="container">
-                <div class="content">
-                    <div class="row">
-                        <div class="title-area">
-                            <h2>Kings & Queens</h2>
-                            <div class="separator separator-danger"><i class="fas fa-paw"></i></div>
-                            <p class="description">波波球布偶貓舍的主要成員介紹。點選每隻貓咪的卡片可以看到更多可愛的照片、頭銜證書與基因檢測資料喔！</p>
-                        </div>
-                    </div>
-
-                    <div class="team">
-                        <div class="row">
-                            <div class="col-md-4">
-                                <div class="card card-member">
-                                    <a href="assets/img/leo-gallery/leo-1.jpg" data-toggle="lightbox" data-gallery="leo-gallery" data-type="image">
-                                        <div class="content">
-                                            <div class="avatar img-male">
-                                                <img alt="Leo profile photo" class="img-circle" src="assets/img/leo-profile.jpg"/>
-                                            </div>
-                                            <div class="description">
-                                                <h3 class="title">Leo <i class="fas fa-mars text-male"></i></h3>
-                                                <p class="small-text text-male">QGC Lynfield Rolling Leo of Furballize</p>
-                                                <ul>
-                                                    <li>顏色：藍雙色 (Blue Bicolor)</li>
-                                                    <li>爸爸：RW SGC Furreal Polaris of Dolcemadre</li>
-                                                    <li>媽媽：RW CH Ragmagic Princess KAKO of Lynfield</li>
-                                                </ul>
-                                                <hr>
-                                                <p class="description">
-                                                    來自日本的 Leo 是美國與德國知名老牌貓舍的結晶，並在日本 TICA 賽事中得到 QGC (Quadruple Grand Champion) 的殊榮。除了血統優秀，平時在家路倒、討摸的技能更是一流！
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </a>
-                                    <div class="certificate">
-                                        <a href="assets/img/leo-certificates-gallery/leo-1.png" data-toggle="lightbox" data-type="image" class="btn btn-danger btn-fill btn-md">基因檢測報告</a>
-                                    </div>
-                                    <!-- leo gallery -->
-                                    {% for i in (2..8) %}
-                                    <div data-remote="assets/img/leo-gallery/leo-{{ i }}.jpg" data-toggle="lightbox" data-gallery="leo-gallery" class="col-sm-4"></div>
-                                    {% endfor %}
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="card card-member">
-                                    <a href="assets/img/lulu-gallery/lulu-1.jpg" data-toggle="lightbox" data-gallery="lulu-gallery" data-type="image">
-                                        <div class="content">
-                                            <div class="avatar img-female">
-                                                <img alt="LuLu profile photo" class="img-circle" src="assets/img/lulu-profile.jpg"/>
-                                            </div>
-                                            <div class="description">
-                                                <h3 class="title">LuLu <i class="fas fa-venus text-female"></i></h3>
-                                                <p class="small-text text-female">Appledolls SwankyLuLu of Furballize</p>
-                                                <ul>
-                                                    <li>顏色：藍手套色 (Blue Mitted)</li>
-                                                    <li>爸爸：QGC DKKittyrags Minik of Appledolls</li>
-                                                    <li>媽媽：Furreal Sweet Agave of Appledolls</li>
-                                                </ul>
-                                                <hr>
-                                                <p class="description">
-                                                    LuLu 的可愛無法言喻！興趣是吃東西，長期擔任波波球貓舍行政主廚，食物準備太慢會大叫抗議。適應力強，活潑愛玩，不論你的聚會有多少人，大方友善的 LuLu 都一定要參加！
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </a>
-                                    <div class="certificate">
-                                        <a href="assets/img/lulu-certificates-gallery/lulu-1.png" data-toggle="lightbox" data-type="image" class="btn btn-danger btn-fill btn-md">基因檢測報告</a>
-                                    </div>
-                                    <!-- lulu gallery -->
-                                    {% for i in (2..10) %}
-                                    <div data-remote="assets/img/lulu-gallery/lulu-{{ i }}.jpg" data-toggle="lightbox" data-gallery="lulu-gallery" class="col-sm-4"></div>
-                                    {% endfor %}
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="card card-member">
-                                    <a>
-                                        <div class="content">
-                                            <div class="avatar img-female">
-                                                <img alt="Coming soon photo" class="img-circle" src="assets/img/coming-soon/coming-soon-4.png"/>
-                                            </div>
-                                            <div class="description">
-                                                <h3 class="title">Teacup <i class="fas fa-venus text-female"></i></h3>
-                                                <p class="small-text text-female">Coming soon</p>
-                                                <ul>
-                                                    <li>顏色：海豹雙色 (Seal Bicolor)</li>
-                                                    <li>爸爸：Coming soon</li>
-                                                    <li>媽媽：Coming soon</li>
-                                                </ul>
-                                                <hr>
-                                                <p class="description">海豹雙色茶杯妹妹很快就會跟大家見面喔！</p>
-                                            </div>
-                                        </div>
-                                    </a>
-                                    <div class="certificate">
-                                        <a href="#" data-toggle="lightbox" data-type="image" class="btn btn-danger btn-fill btn-md disabled">基因檢測報告</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="section section-our-clients-freebie" id="kittens">
         <div class="container">
             <div class="title-area">
-                <h2>Kittens</h2>
-                <div class="separator separator-danger"><i class="fas fa-paw"></i></div>
+                <h2 class="text-white">Application</h2>
+                <div class="separator line-separator"><i class="fas fa-paw"></i></div>
+                <p class="description">
+                    感謝您對波波球布偶貓的喜愛，我們的價格依照小貓條件而定，最低讓渡價為新台幣六萬。在您決定詢問小貓前，請先瀏覽過我們的合約。合約內容分為兩個部分，各別是健康保證與買方須知，請您同意合約內容再填詢問單。這份合約的目的並不是為了拿來為難準家長們的，而是希望喜歡布偶貓的你可以做到把我們的寶貝當作一輩子的家人，用心愛護，不離不棄。如果你是真心喜愛我們的小貓，這份合約並不會對你造成任何影響與約束。
+                </p>
             </div>
-
-            <ul class="nav nav-text">
-                <li>
-                    <a>
-                        <div class="image-clients">
-                            <img alt="Coming soon photo" class="img-circle" src="assets/img/coming-soon/coming-soon-2.png"/>
-                        </div>
-                    </a>
-                </li>
-            </ul>
-
-            <div class="row">
-                <div class="col-md-2"></div>
-                <div class="col-md-8">
-                    <ul>
-                        <li>小貓價格包含 TICA/CFA 登錄單、結紮、驅蟲、兩劑預防針、晶片、寵物登記、特約獸醫師開立之健康證明，以及 18 個月 HCM、PKD 基因保障期。</li>
-                        <li>我們不出售任何未結紮的布偶貓，也不提供配種。</li>
-                        <li>很抱歉貓舍不對外開放，對我們有興趣的朋友，填妥預約單後我們會傳送貓咪照與影片給你挑選。</li>
-                        <li>我們的價格合理，請勿議價。</li>
-                    </ul>
-                </div>
-                <div class="col-md-2"></div>
+            <div class="button-get-started">
+                <a href="https://docs.google.com/forms/d/1R-tVDDsZevMIPh2Ri7cfXUk4QudOkzjVZxPt6ujTvao/edit" target="_blank" class="btn btn-danger btn-fill btn-lg">小貓詢問單</a>
             </div>
         </div>
     </div>
-
-    <div class="section section-small section-get-started" id="application">
-        <div class="parallax filter">
-            <div class="image"
-                style="background-image: url(assets/img/repeated-background.jpg)">
-            </div>
-            <div class="container">
-                <div class="title-area">
-                    <h2 class="text-white">Application</h2>
-                    <div class="separator line-separator"><i class="fas fa-paw"></i></div>
-                    <p class="description">
-                        感謝您對波波球布偶貓的喜愛，我們的價格依照小貓條件而定，最低讓渡價為新台幣六萬。在您決定詢問小貓前，請先瀏覽過我們的合約。合約內容分為兩個部分，各別是健康保證與買方須知，請您同意合約內容再填詢問單。這份合約的目的並不是為了拿來為難準家長們的，而是希望喜歡布偶貓的你可以做到把我們的寶貝當作一輩子的家人，用心愛護，不離不棄。如果你是真心喜愛我們的小貓，這份合約並不會對你造成任何影響與約束。
-                    </p>
-                </div>
-                <div class="button-get-started">
-                    <a href="https://docs.google.com/forms/d/1R-tVDDsZevMIPh2Ri7cfXUk4QudOkzjVZxPt6ujTvao/edit" target="_blank" class="btn btn-danger btn-fill btn-lg">小貓詢問單</a>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="section section-our-clients-freebie" id="faq">
-        <div class="container">
-            <div class="title-area">
-                <h2>FAQ</h2>
-                <div class="separator separator-danger"><i class="fas fa-paw"></i></div>
-                <p class="description">Ask something I'm giving upon you.</p>
-            </div>
-
-            <div class="accordion" id="accordionExample">
-                <div class="card">
-                  <div class="card-header" id="headingOne">
-                    <h2 class="mb-0">
-                      <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                        <i class="fas fa-hashtag"></i> Collapsible Group Item<i class="fas fa-chevron-down right"></i>
-                      </button>
-                    </h2>
-                  </div>
-
-                  <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
-                    <div class="card-body">
-                      Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                    </div>
-                  </div>
-                </div>
-                <div class="card">
-                  <div class="card-header" id="headingTwo">
-                    <h2 class="mb-0">
-                      <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                        <i class="fas fa-hashtag"></i> Collapsible Group Item<i class="fas fa-chevron-down right"></i>
-                      </button>
-                    </h2>
-                  </div>
-                  <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
-                    <div class="card-body">
-                      Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                    </div>
-                  </div>
-                </div>
-                <div class="card">
-                  <div class="card-header" id="headingThree">
-                    <h2 class="mb-0">
-                      <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                        <i class="fas fa-hashtag"></i> Collapsible Group Item<i class="fas fa-chevron-down right"></i>
-                      </button>
-                    </h2>
-                  </div>
-                  <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
-                    <div class="card-body">
-                      Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                    </div>
-                  </div>
-                </div>
-              </div>
-        </div>
-    </div>
-
-    <footer class="footer footer-big footer-color-black" data-color="black">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4 contact">
-                    <ul>
-                        <li>
-                            <a href="https://www.facebook.com/furballizerags" target="_blank" class="btn btn-social btn-facebook btn-simple">
-                                <i class="fab fa-facebook-square"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://www.instagram.com/furballizeragdolls" target="_blank" class="btn btn-social btn-dribbble btn-simple">
-                                <i class="fab fa-instagram"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="mailto:furballizeragdolls@gmail.com" target="_blank" class="btn btn-social btn-dribbble btn-simple">
-                                <i class="far fa-envelope"></i>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-md-4 footer-text">
-                    <p>特寵業繁字第 W1070462 號</p>
-                </div>
-                <div class="col-md-4 footer-text">
-                    <p>
-                        <i class="far fa-copyright"></i> <script> document.write(new Date().getFullYear()) </script>
-                        Furballize Ragdolls Cattery
-                    </p>
-                </div>
-            </div>
-        </div>
-    </footer>
-</body>
+</div>
