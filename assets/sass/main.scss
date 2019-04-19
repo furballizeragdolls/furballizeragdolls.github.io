@@ -126,6 +126,22 @@ p {
     &:not(.card-plain):not(.card-price):hover {
       transform: none;
     }
+    .card-header {
+      .btn {
+        width: 100%;
+        color: black;
+        text-align: left;
+        .right {
+          float: right;
+          vertical-align:middle;
+          line-height: 2em;
+        }
+        &:hover {
+          color: $default-color;
+          text-decoration: none;
+        }
+      }
+    }
     .card-body {
       margin-bottom: 1em;
     }
