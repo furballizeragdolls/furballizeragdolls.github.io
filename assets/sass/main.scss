@@ -145,8 +145,10 @@ p {
     border-radius: 10px;
   }
   .navbar-collapse {
-    ul li a i {
-      margin-right: 0.3em;
+    ul li {
+      a i {
+        margin-right: 0.3em;
+      }
     }
   }
 }
