@@ -131,13 +131,20 @@ p {
     .card-header {
       font-size: 1.1em;
       border-bottom: 1px solid rgb(175, 175, 175);
+      @media screen and (max-width: 765px) {
+        font-size: 1.3em;
+      }
       .btn {
         width: 100%;
         color: black;
         margin-top: 0.5em;
+        padding-bottom: 1em;
         overflow: hidden;
         text-overflow: ellipsis;
         white-space: nowrap;
+        @media screen and (max-width: 765px) {
+          padding-bottom: 0.2em;
+        }
         .main {
           display: flex;
           justify-content: space-between;
@@ -169,6 +176,9 @@ p {
       }
       p {
         font-size: 1.1em;
+        @media screen and (max-width: 765px) {
+          font-size: 0.8em;
+        }
       }
     }
     .btn {
