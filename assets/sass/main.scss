@@ -129,25 +129,26 @@ p {
       transform: none;
     }
     .card-header {
-      font-size: 1.1em;
       border-bottom: 1px solid rgb(175, 175, 175);
-      @media screen and (max-width: 765px) {
-        font-size: 1.3em;
-      }
-      .btn {
+      .qa-tab {
         width: 100%;
-        color: black;
-        margin-top: 0.5em;
-        padding-bottom: 1em;
-        overflow: hidden;
-        text-overflow: ellipsis;
-        white-space: nowrap;
-        @media screen and (max-width: 765px) {
-          padding-bottom: 0.2em;
+        padding: 0.8em 0.4em;
+        vertical-align: middle;
+        &:hover {
+          color: $default-color;
+          text-decoration: none;
+        }
+        &:focus {
+          text-decoration: none;
         }
         .main {
+          font-weight: bold;
+          font-size: 1.4em;
           display: flex;
           justify-content: space-between;
+          @media screen and (max-width: 765px) {
+            font-size: 1em;
+          }
         }
         .left {
           i {
@@ -158,13 +159,6 @@ p {
           i {
             margin-left: 0.7em;
           }
-        }
-        &:hover {
-          color: $default-color;
-          text-decoration: none;
-        }
-        &:focus {
-          text-decoration: none;
         }
       }
     }

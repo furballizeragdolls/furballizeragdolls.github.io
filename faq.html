@@ -19,14 +19,15 @@ layout: default
             {% for fqa in site.data.fqa %}
             <div class="card">
                 <div class="card-header" id="heading{{ fqa.id }}">
-                    <h2 class="mb-0">
-                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse{{ fqa.id }}" aria-expanded="false" aria-controls="collapse{{ fqa.id }}">
+                    <div class="qa-tab">
+                        <a data-toggle="collapse" data-target="#collapse{{ fqa.id }}" aria-expanded="false" aria-controls="collapse{{ fqa.id }}" class="collapsed">
                             <div class="main">
                                 <div class="left"><i class="fas fa-paw left"></i>{{ fqa.question }}</div>
                                 <div class="right"><i class="fas fa-chevron-down right"></i></div>
                             </div>
-                        </button>
-                    </h2>
+                        </a>
+                    </div>
+
                     <div id="collapse{{ fqa.id }}" class="collapse" aria-labelledby="heading{{ fqa.id }}" data-parent="#accordion">
                         <div class="card-body">
                             <p>{{ fqa.answer }}</p>
