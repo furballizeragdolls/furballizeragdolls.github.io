@@ -126,6 +126,7 @@ p {
       transform: none;
     }
     .card-header {
+      font-size: 1.1em;
       border-bottom: 1px solid black;
       .btn {
         width: 100%;
@@ -153,6 +154,9 @@ p {
         text-decoration: underline;
         text-decoration-style: dotted;
       }
+      p {
+        font-size: 1.1em;
+      }
     }
     .btn {
       border: none;
@@ -176,6 +180,9 @@ p {
     right: 10px;
     bottom: 10px;
     font-weight: 900;
+  }
+  input {
+    text-indent: 0.5em;
   }
 }
 
@@ -226,7 +233,6 @@ p {
     width: 95%;
   }
   .navbar-brand {
-    // border: 1px solid rgb(189, 189, 189);
     border-radius: 10px;
     font-weight: 1000;
   }
