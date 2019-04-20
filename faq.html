@@ -17,48 +17,23 @@ layout: default
         </div>
 
         <div class="accordion" id="accordion">
+
+            {% for fqa in site.data.fqa %}
             <div class="card">
-                <div class="card-header" id="headingOne">
+                <div class="card-header" id="heading{{ fqa.id }}">
                     <h2 class="mb-0">
-                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                        <i class="fas fa-hashtag"></i> Collapsible Group Item One<i class="fas fa-chevron-down right"></i>
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse{{ fqa.id }}" aria-expanded="false" aria-controls="collapse{{ fqa.id }}">
+                        <i class="fas fa-paw left"></i> {{ fqa.question }}<i class="fas fa-chevron-down right"></i>
                         </button>
                     </h2>
-                    <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                    <div id="collapse{{ fqa.id }}" class="collapse" aria-labelledby="heading{{ fqa.id }}" data-parent="#accordion">
                         <div class="card-body">
-                            小豬
+                            <p>{{ fqa.answer }}</p>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="card">
-                <div class="card-header" id="headingTwo">
-                    <h2 class="mb-0">
-                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                        <i class="fas fa-hashtag"></i> Collapsible Group Item Two<i class="fas fa-chevron-down right"></i>
-                        </button>
-                    </h2>
-                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-                        <div class="card-body">
-                            小諸 world
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-header" id="headingThree">
-                    <h2 class="mb-0">
-                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                        <i class="fas fa-hashtag"></i> Collapsible Group Item Three<i class="fas fa-chevron-down right"></i>
-                        </button>
-                    </h2>
-                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
-                        <div class="card-body">
-                            foo bar
-                        </div>
-                    </div>
-                </div>
-            </div>
+            {% endfor %}
         </div>
     </div>
 </div>
