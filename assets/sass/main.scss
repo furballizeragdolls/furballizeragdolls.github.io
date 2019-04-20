@@ -151,6 +151,31 @@ p {
   }
 }
 
+#accordion_search_bar_container {
+  width: 65%;
+  margin: 0 auto 2em;
+  position: relative;
+  &:after {
+    font-family: "Font Awesome 5 Free";
+    content: '\f002';
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    font-weight: 900;
+  }
+}
+
+#accordion_search_bar {
+  width: 100%;
+  border: 1px solid grey;
+  border-radius: 25px;
+  padding: 7px 10px;
+  outline: 0;
+  display: block;
+}
+
 .title-area {
   text-align: left !important;
   h1 {
