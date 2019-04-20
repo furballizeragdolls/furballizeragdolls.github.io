@@ -21,7 +21,10 @@ layout: default
                 <div class="card-header" id="heading{{ fqa.id }}">
                     <h2 class="mb-0">
                         <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse{{ fqa.id }}" aria-expanded="false" aria-controls="collapse{{ fqa.id }}">
-                        <i class="fas fa-paw left"></i> {{ fqa.question }}<i class="fas fa-chevron-down right"></i>
+                            <div class="main">
+                                <div class="left"><i class="fas fa-paw left"></i>{{ fqa.question }}</div>
+                                <div class="right"><i class="fas fa-chevron-down right"></i></div>
+                            </div>
                         </button>
                     </h2>
                     <div id="collapse{{ fqa.id }}" class="collapse" aria-labelledby="heading{{ fqa.id }}" data-parent="#accordion">
