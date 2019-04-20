@@ -163,6 +163,9 @@ p {
           color: $default-color;
           text-decoration: none;
         }
+        &:focus {
+          text-decoration: none;
+        }
       }
     }
     .card-body {
