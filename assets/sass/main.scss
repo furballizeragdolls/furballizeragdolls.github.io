@@ -142,7 +142,6 @@ p {
         padding: 0.8em 0.4em;
         vertical-align: middle;
         &:hover {
-          color: $default-color;
           text-decoration: none;
           cursor: pointer;
         }
@@ -157,6 +156,9 @@ p {
           justify-content: space-between;
           @media screen and (max-width: 765px) {
             font-size: 1em;
+          }
+          &:hover {
+            color: $default-color;
           }
         }
         .left {
