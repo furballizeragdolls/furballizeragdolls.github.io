@@ -171,6 +171,11 @@ p {
         &:focus {
           text-decoration: none;
         }
+        a[aria-expanded="true"] {
+          .fa-chevron-down {
+            transform: rotate(180deg);
+          }
+        }
         .main {
           color: rgb(66, 66, 66);
           font-weight: bold;
