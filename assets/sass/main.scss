@@ -21,7 +21,10 @@ p {
 }
 
 .description {
-  font-family: $default-font-family;
+  font-family: $default-body-font-family;
+  a {
+    font-family: $default-body-font-family;
+  }
 }
 
 #about {
