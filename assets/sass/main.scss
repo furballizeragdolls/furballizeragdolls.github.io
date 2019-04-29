@@ -68,9 +68,10 @@ p {
     ul {
       padding-left: 1em;
       li {
-        color: rgb(48, 48, 48);
+        color: rgb(78, 78, 78);
         text-align: left;
-        font-size: 0.9em;
+        font-size: 0.85em;
+        font-weight: 600;
       }
     }
     .title {
@@ -81,6 +82,7 @@ p {
       padding: 2em 1.2em 1em;
     }
     .small-text {
+      font-size: 1.1em;
       font-weight: bold;
     }
     .description {
