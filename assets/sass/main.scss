@@ -2,6 +2,7 @@
 @import url(https://fonts.googleapis.com/earlyaccess/cwtexyen.css);
 
 a {
+  color: rgb(78, 78, 78);
   &:hover {
     color: $default-color !important;
     border-color: $default-color !important;
@@ -24,6 +25,17 @@ p {
   font-family: $default-body-font-family;
   a {
     font-family: $default-body-font-family;
+  }
+  p {
+    font-family: $default-body-font-family;
+  }
+}
+
+.button-get-started {
+  .btn {
+    &:hover {
+      border: 0;
+    }
   }
 }
 
