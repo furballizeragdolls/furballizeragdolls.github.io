@@ -31,7 +31,7 @@ kramdown:
   input: GFM
 syntax_highlighter: rouge
 exclude: ['README.md']
-permalink: pretty
+permalink: /404.html
 
 plugins:
   - jekyll-sitemap
