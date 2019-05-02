@@ -231,9 +231,18 @@ p {
 
 #not-found {
   min-height: 90vh;
-  padding-top: 10em;
-  .avatar {
-    border: none;
+  h2 {
+    margin-top: -1.5em;
+  }
+  .center {
+    margin-top: 1em;
+    img {
+      width: 70%;
+      margin: 0 auto;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
   }
 }
 
