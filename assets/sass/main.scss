@@ -230,9 +230,20 @@ p {
 }
 
 #not-found {
+  .title-area {
+    @media screen and (max-width: 765px) {
+      margin-top: 5em;
+    }
+  }
   min-height: 90vh;
+  @media screen and (max-width: 765px) {
+    min-height: 80vh;
+  }
   h2 {
     margin-top: -1.5em;
+    @media screen and (max-width: 765px) {
+      margin-top: -0.5em;
+    }
   }
   .center {
     margin-top: 1em;
