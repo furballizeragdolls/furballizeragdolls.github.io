@@ -229,34 +229,6 @@ p {
   }
 }
 
-#not-found {
-  .title-area {
-    @media screen and (max-width: 765px) {
-      margin-top: 5em;
-    }
-  }
-  min-height: 90vh;
-  @media screen and (max-width: 765px) {
-    min-height: 80vh;
-  }
-  h2 {
-    margin-top: -1.5em;
-    @media screen and (max-width: 765px) {
-      margin-top: -0.5em;
-    }
-  }
-  .center {
-    margin-top: 1em;
-    img {
-      width: 70%;
-      margin: 0 auto;
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-    }
-  }
-}
-
 #accordion_search_bar_container {
   width: 65%;
   margin: 0 auto 2em;
