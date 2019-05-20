@@ -288,10 +288,11 @@ p {
         }
         margin-top: 1em;
         padding: 1.5em 2em 1em 2em;
-        p {
-          font-family: $default-body-font-family;
-        }
         blockquote {
+          p {
+            font-family: $default-body-font-family;
+            font-size: 0.9em;
+          }
           padding-top: 0;
           padding-bottom: 0;
         }
