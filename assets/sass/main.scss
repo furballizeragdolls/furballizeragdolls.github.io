@@ -257,6 +257,70 @@ p {
   display: block;
 }
 
+#blog {
+  .container {
+    margin-top: 25px;
+    width: 65%;
+  }
+  .title {
+    line-height: 38px;
+    margin: 0;
+  }
+  .article-title {
+    font-size: 1.5em;
+    font-weight: bold;
+    float: left;
+  }
+  .date {
+    font-family: $default-body-font-family;
+    float: left;
+    margin-left: 0.5em;
+    font-size: 0.9em;
+  }
+  ul {
+    a {
+      &:hover {
+        color: rgb(49, 49, 49) !important;
+      }
+      li {
+        margin-top: 1em;
+        padding: 1.5em 2em 1em 2em;
+        p {
+          font-family: $default-body-font-family;
+        }
+        blockquote {
+          padding-top: 0;
+          padding-bottom: 0;
+        }
+      }
+    }
+
+  }
+}
+
+#post {
+  .container {
+    margin-top: 30px;
+    width: 70%;
+  }
+  h2 {
+    font-weight: 900;
+  }
+  .date {
+    font-family: $default-body-font-family;
+    font-weight: 300;
+  }
+  .content {
+    margin-top: 2em;
+    font-family: $default-body-font-family;
+    font-size: 1.15em;
+    p {
+      font-family: $default-body-font-family;
+      font-size: inherit;
+    }
+  }
+}
+
 .title-area {
   text-align: left !important;
   h1 {

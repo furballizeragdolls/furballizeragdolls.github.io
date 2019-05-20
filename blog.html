@@ -1,0 +1,31 @@
+---
+layout: default
+---
+
+{% include child_navbar.html %}
+
+<div class="section section-our-clients-freebie" id="blog">
+    <div class="container">
+        <div class="title-area">
+            <h2>Blog</h2>
+            <div class="separator separator-danger"><i class="fas fa-paw"></i></div>
+        </div>
+
+        <ul class="list-group list-group-flush">
+            {% for post in site.posts %}
+            <a href="{{ post.url }}">
+                <li class="list-group-item">
+                    <div class="title">
+                        <div class="article-title">{{ post.title }}</div>
+                        <div class="date">{{ post.date | date_to_string }}</div>
+                        <div class="clearfix"></div>
+                    </div>
+                    <blockquote class="blockquote">
+                        <p>{{ post.excerpt }}</p>
+                    </blockquote>
+                </li>
+            </a>
+            {% endfor %}
+        </ul>
+    </div>
+</div>
