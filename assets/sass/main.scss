@@ -304,7 +304,7 @@ p {
 #post {
   .container {
     margin-top: 30px;
-    width: 70%;
+    width: 65%;
   }
   h2 {
     font-weight: 900;
@@ -315,6 +315,7 @@ p {
   }
   .content {
     margin-top: 2em;
+    margin-bottom: 3em;
     font-family: $default-body-font-family;
     font-size: 1.15em;
     p {
