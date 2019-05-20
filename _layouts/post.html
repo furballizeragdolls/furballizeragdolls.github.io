@@ -43,7 +43,7 @@
         <div class="container">
             <div class="row">
                 <h2>{{ page.title }}</h2>
-                <h5 class="date">{{ page.date | date_to_string }}</h5>
+                <h5 class="date">{{ page.date | date: "%m/%d/%Y" }}</h5>
                 <div class="content">{{ content }}</div>
             </div>
         </div>

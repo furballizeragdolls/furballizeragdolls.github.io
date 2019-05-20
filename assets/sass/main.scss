@@ -283,6 +283,9 @@ p {
         color: rgb(49, 49, 49) !important;
       }
       li {
+        &:hover {
+          border-color: rgb(107, 107, 107) !important;
+        }
         margin-top: 1em;
         padding: 1.5em 2em 1em 2em;
         p {
