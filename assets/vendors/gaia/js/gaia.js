@@ -3,13 +3,13 @@
  =========================================================
  * Gaia Bootstrap Template - v1.0.1
  =========================================================
- 
+
  * Product Page: https://www.creative-tim.com/product/gaia-bootstrap-template
  * Copyright 2017 Creative Tim (http://www.creative-tim.com)
  * Licensed under MIT (https://github.com/creativetimofficial/gaia-bootstrap-template/blob/master/LICENSE.md)
- 
+
  =========================================================
- 
+
  * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
  */
 
@@ -158,6 +158,7 @@ gaia = {
     },
 
     checkScrollForTransparentNavbar: debounce(function() {
+        if (window.location.pathname === '/') {
             if($(document).scrollTop() > scroll_distance ) {
                 if(transparent) {
                     transparent = false;
@@ -169,6 +170,7 @@ gaia = {
                     $navbar.addClass('navbar-transparent');
                 }
             }
+        }
     }, 17),
 
     checkScrollForParallax: debounce(function() {
