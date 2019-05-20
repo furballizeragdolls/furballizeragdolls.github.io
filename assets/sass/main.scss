@@ -306,12 +306,15 @@ p {
     margin-top: 30px;
     width: 65%;
   }
-  h2 {
-    font-weight: 900;
-  }
-  .date {
-    font-family: $default-body-font-family;
-    font-weight: 300;
+  .article-title {
+    h2 {
+      font-weight: 900;
+    }
+    .date {
+      font-family: $default-body-font-family;
+      font-weight: 300;
+      margin-bottom: 1em;
+    }
   }
   .content {
     margin-top: 2em;
