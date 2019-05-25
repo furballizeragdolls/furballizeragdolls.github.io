@@ -39,7 +39,29 @@
 <body>
     {% include child_navbar.html %}
 
-    {{ content }}
+    <div class="section" id="post">
+        <div class="container">
+            <div class="row text-center article-title">
+                <div class="col-md-12">
+                    <h2>{{ page.title }}</h2>
+                    <h5 class="date">{{ page.date | date: "%m/%d/%Y" }}</h5>
+                    <div class="separator separator-danger"><i class="fas fa-paw"></i></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="content">{{ content }}</div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4"></div>
+                <div class="col-md-4 text-center">
+                    <a href="/blog" class="btn btn-round btn-danger btn-fill">回到文章列表</a>
+                </div>
+                <div class="col-md-4"></div>
+            </div>
+        </div>
+    </div>
 
     {% include footer.html %}
 </body>
