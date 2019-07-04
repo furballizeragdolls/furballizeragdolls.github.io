@@ -63,6 +63,11 @@ p {
 }
 
 #kings-and-queens {
+  .team {
+    .row {
+      margin-bottom: 0.8em;
+    }
+  }
   .card {
     height: 100%;
     ul {
@@ -79,7 +84,7 @@ p {
     }
     .content {
       min-height: 31em;
-      padding: 2em 1.2em 1em;
+      padding: 2em 1.8em 1em;
     }
     .small-text {
       font-size: 1.1em;

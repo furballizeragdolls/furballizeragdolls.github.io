@@ -88,7 +88,8 @@ layout: index
 
                 <div class="team">
                     <div class="row">
-                        <div class="col-md-4">
+                        <div class="col-md-3"></div>
+                        <div class="col-md-6">
                             <div class="card card-member">
                                 <a href="/assets/img/leo-gallery/leo-1.jpg" data-toggle="lightbox" data-gallery="leo-gallery" data-type="image">
                                     <div class="content">
@@ -97,7 +98,7 @@ layout: index
                                         </div>
                                         <div>
                                             <h3 class="title">Leo <i class="fas fa-mars text-male"></i></h3>
-                                            <p class="small-text text-male">QGC Lynfield Rolling Leo of Furballize</p>
+                                            <p class="small-text text-male">RW QGC Lynfield Rolling Leo of Furballize</p>
                                             <ul class="description">
                                                 <li>顏色：藍雙色 (Blue Bicolor)</li>
                                                 <li>爸爸：RW SGC Furreal Polaris of Dolcemadre</li>
@@ -105,7 +106,7 @@ layout: index
                                             </ul>
                                             <hr>
                                             <p class="description">
-                                                來自日本的 Leo 是美國與德國知名老牌貓舍的結晶，並在日本 TICA 賽事中得到 QGC (Quadruple Grand Champion) 的殊榮。除了血統優秀，平時在家路倒、討摸的技能更是一流！
+                                                來自日本的 Leo 是美國與德國知名老牌貓舍的結晶。承襲了父母優秀的血統，不負眾望地在 2019 TICA 國際賽區得到 RW (Regional Winner) 頭銜並為年度最佳成貓組第三名 (Third Best Cat of the Year)、最佳長毛貓第一名 (Best Longhair of the Year)、最佳布偶貓第一名 (Best Ragdoll of the Year) 和最佳藍雙色布偶貓第一名 (Best Blue Point/Bicolor Ragdoll of the Year)。平時在家路倒、討摸的技能更是一流。
                                             </p>
                                         </div>
                                     </div>
@@ -114,11 +115,14 @@ layout: index
                                     <a href="/assets/img/leo-certificates-gallery/leo-1.png" data-toggle="lightbox" data-type="image" class="btn btn-danger btn-fill btn-md">基因檢測報告</a>
                                 </div>
                                 <!-- leo gallery -->
-                                {% for i in (2..8) %}
+                                {% for i in (2..14) %}
                                 <div data-remote="/assets/img/leo-gallery/leo-{{ i }}.jpg" data-toggle="lightbox" data-gallery="leo-gallery" class="col-sm-4"></div>
                                 {% endfor %}
                             </div>
                         </div>
+                        <div class="col-md-3"></div>
+                    </div>
+                    <div class="row">
                         <div class="col-md-4">
                             <div class="card card-member">
                                 <a href="/assets/img/lulu-gallery/lulu-1.jpg" data-toggle="lightbox" data-gallery="lulu-gallery" data-type="image">
@@ -145,14 +149,14 @@ layout: index
                                     <a href="/assets/img/lulu-certificates-gallery/lulu-1.png" data-toggle="lightbox" data-type="image" class="btn btn-danger btn-fill btn-md">基因檢測報告</a>
                                 </div>
                                 <!-- lulu gallery -->
-                                {% for i in (2..10) %}
+                                {% for i in (2..13) %}
                                 <div data-remote="/assets/img/lulu-gallery/lulu-{{ i }}.jpg" data-toggle="lightbox" data-gallery="lulu-gallery" class="col-sm-4"></div>
                                 {% endfor %}
                             </div>
                         </div>
                         <div class="col-md-4">
                             <div class="card card-member">
-                                <a>
+                                <a href="/assets/img/teacup-gallery/teacup-1.jpg" data-toggle="lightbox" data-gallery="teacup-gallery" data-type="image">
                                     <div class="content">
                                         <div class="avatar img-female">
                                             <img alt="Coming soon photo" class="img-circle" src="/assets/img/teacup-profile.jpg"/>
@@ -173,6 +177,35 @@ layout: index
                                 <div class="certificate">
                                     <a href="#" data-toggle="lightbox" data-type="image" class="btn btn-danger btn-fill btn-md disabled">基因檢測報告</a>
                                 </div>
+                                <!-- teacup gallery -->
+                                {% for i in (2..7) %}
+                                <div data-remote="/assets/img/teacup-gallery/teacup-{{ i }}.jpg" data-toggle="lightbox" data-gallery="teacup-gallery" class="col-sm-4"></div>
+                                {% endfor %}
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card card-member">
+                                <a>
+                                    <div class="content">
+                                        <div class="avatar img-female">
+                                            <img alt="Coming soon photo" class="img-circle" src="/assets/img/momo-profile.jpg"/>
+                                        </div>
+                                        <div>
+                                            <h3 class="title">Momo <i class="fas fa-venus text-female"></i></h3>
+                                            <p class="small-text text-female">Coming soon</p>
+                                            <ul class="description">
+                                                <li>顏色：海豹手套色 (Seal Mitted)</li>
+                                                <li>爸爸：Coming soon</li>
+                                                <li>媽媽：Coming soon</li>
+                                            </ul>
+                                            <hr>
+                                            <p class="description">海豹手套色 Momo 妹妹很快就會跟大家見面喔！</p>
+                                        </div>
+                                    </div>
+                                </a>
+                                <div class="certificate">
+                                    <a href="#" data-toggle="lightbox" data-type="image" class="btn btn-danger btn-fill btn-md disabled">基因檢測報告</a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -187,8 +220,8 @@ layout: index
         <div class="title-area">
             <h2>Kittens</h2>
             <div class="separator separator-danger"><i class="fas fa-paw"></i></div>
-            <div class="alert alert-danger" role="alert">
-                六月下旬即將有小貓出生！敬請期待！
+            <div class="alert alert-success" role="alert">
+                我們目前已有可愛小貓出生，歡迎填單詢問！
             </div>
         </div>
 
