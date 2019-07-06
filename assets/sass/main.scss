@@ -63,7 +63,7 @@ p {
     }
   }
   .description {
-    font-size: 1.3em;
+    font-size: 1.2em;
     text-align: left;
     @media screen and (max-width: 765px) {
       font-size: 1.1em !important;
@@ -95,16 +95,19 @@ p {
       font-weight: bold;
     }
     .content {
-      min-height: 33em;
+      min-height: 34em;
       padding: 2em 1.8em 1em;
     }
     .small-text {
-      font-size: 1.2em;
+      font-size: 1.15em;
       font-weight: bold;
     }
     .description {
+      li {
+        font-size: 0.95em;
+      }
       text-align: left;
-      font-size: 1.1em;
+      font-size: 1em;
     }
     .hidden {
       display: none;
@@ -119,7 +122,7 @@ p {
 }
 
 #kittens {
-  font-size: 1.1em;
+  font-size: 1em;
   .container {
     margin-top: 25px;
   }
@@ -149,10 +152,10 @@ p {
     margin-bottom: 4em;
   }
   .description {
-    font-size: 1.3em;
+    font-size: 1.2em;
     text-align: left;
     @media screen and (max-width: 765px) {
-      font-size: 1.1em !important;
+      font-size: 1em !important;
     }
   }
 }
@@ -394,7 +397,7 @@ p {
   .navbar-nav.navbar-uppercase {
     li {
       a {
-        font-size: 1em;
+        font-size: 0.9em;
       }
     }
   }
