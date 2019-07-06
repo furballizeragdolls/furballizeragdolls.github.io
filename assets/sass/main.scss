@@ -31,10 +31,15 @@ p {
   }
 }
 
-.button-get-started {
-  .btn {
-    &:hover {
-      border: 0;
+#header {
+  .title-area {
+    margin-bottom: 0;
+  }
+  .button-get-started {
+    .btn {
+      &:hover {
+        border: 0;
+      }
     }
   }
 }
@@ -58,11 +63,18 @@ p {
     }
   }
   .description {
+    font-size: 1.3em;
     text-align: left;
+    @media screen and (max-width: 765px) {
+      font-size: 1.1em !important;
+    }
   }
 }
 
 #kings-and-queens {
+  .container {
+    width: 80%;
+  }
   .team {
     .row {
       margin-bottom: 0.8em;
@@ -71,11 +83,11 @@ p {
   .card {
     height: 100%;
     ul {
-      padding-left: 1em;
+      padding-left: 1.2em;
       li {
         color: rgb(78, 78, 78);
         text-align: left;
-        font-size: 0.85em;
+        font-size: 1em;
         font-weight: 500;
       }
     }
@@ -83,16 +95,16 @@ p {
       font-weight: bold;
     }
     .content {
-      min-height: 31em;
+      min-height: 33em;
       padding: 2em 1.8em 1em;
     }
     .small-text {
-      font-size: 1.1em;
+      font-size: 1.2em;
       font-weight: bold;
     }
     .description {
       text-align: left;
-      font-size: 1em;
+      font-size: 1.1em;
     }
     .hidden {
       display: none;
@@ -116,6 +128,7 @@ p {
   }
   ul {
     li {
+      font-size: 1.15em;
       padding-left: 0.5em;
       margin-bottom: 0.1em;
     }
@@ -136,7 +149,11 @@ p {
     margin-bottom: 4em;
   }
   .description {
+    font-size: 1.3em;
     text-align: left;
+    @media screen and (max-width: 765px) {
+      font-size: 1.1em !important;
+    }
   }
 }
 
@@ -374,7 +391,15 @@ p {
   .container {
     width: 95%;
   }
+  .navbar-nav.navbar-uppercase {
+    li {
+      a {
+        font-size: 1em;
+      }
+    }
+  }
   .navbar-brand {
+    font-size: 1.5em;
     border-radius: 10px;
     font-weight: 1000;
   }
