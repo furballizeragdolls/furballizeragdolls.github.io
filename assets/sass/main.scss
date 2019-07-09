@@ -354,6 +354,15 @@ p {
       font-family: $default-body-font-family;
       font-size: inherit;
     }
+    table{
+      tbody tr td {
+        font-family: $default-body-font-family;
+        font-size: inherit;
+      }
+      tbody tr:first-child td {
+        border: none;
+      }
+    }
   }
 }
 
