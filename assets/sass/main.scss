@@ -350,9 +350,16 @@ p {
     margin-bottom: 3em;
     font-family: $default-body-font-family;
     font-size: 1.15em;
-    p, blockquote {
+    p {
       font-family: $default-body-font-family;
       font-size: inherit;
+    }
+    blockquote {
+      font-family: $default-body-font-family;
+      font-size: 0.8em;
+      width: 78%;
+      margin-left: auto;
+      margin-right: auto;
     }
     table{
       tbody tr td {
