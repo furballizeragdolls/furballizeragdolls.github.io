@@ -32,8 +32,6 @@ kramdown:
 syntax_highlighter: rouge
 exclude: ['README.md']
 permalink: pretty
-sass:
-  style: compressed
 
 plugins:
   - jekyll-sitemap
