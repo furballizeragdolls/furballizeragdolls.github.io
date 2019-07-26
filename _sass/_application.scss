@@ -1,0 +1,21 @@
+#application {
+  .container {
+    margin-bottom: 5em;
+  }
+  .button-get-started {
+    .btn-lg {
+      font-size: 16px;
+      padding: 16px 20px;
+    }
+  }
+  .title-area {
+    margin-bottom: 4em;
+  }
+  .description {
+    font-size: 1.2em;
+    text-align: left;
+    @media screen and (max-width: 765px) {
+      font-size: 1em !important;
+    }
+  }
+}

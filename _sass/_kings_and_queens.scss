@@ -1,0 +1,49 @@
+#kings-and-queens {
+  .container {
+    width: 80%;
+  }
+  .team {
+    .row {
+      margin-bottom: 0.8em;
+    }
+  }
+  .card {
+    height: 100%;
+    ul {
+      padding-left: 1.2em;
+      li {
+        color: rgb(78, 78, 78);
+        text-align: left;
+        font-size: 1em;
+        font-weight: 500;
+      }
+    }
+    .title {
+      font-weight: bold;
+    }
+    .content {
+      min-height: 34em;
+      padding: 2em 1.8em 1em;
+    }
+    .small-text {
+      font-size: 1.15em;
+      font-weight: bold;
+    }
+    .description {
+      li {
+        font-size: 0.95em;
+      }
+      text-align: left;
+      font-size: 1em;
+    }
+    .hidden {
+      display: none;
+    }
+    .certificate {
+      text-align: center;
+      a {
+        margin: 0 auto 2em;
+      }
+    }
+  }
+}

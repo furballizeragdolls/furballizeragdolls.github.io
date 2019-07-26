@@ -1,0 +1,43 @@
+#blog {
+  .container {
+    margin-top: 25px;
+    width: 65%;
+  }
+  .title {
+    line-height: 38px;
+    margin: 0;
+  }
+  .article-title {
+    font-size: 1.5em;
+    font-weight: bold;
+    float: left;
+  }
+  .date {
+    font-family: $default-body-font-family;
+    float: left;
+    margin-left: 1em;
+    font-size: 0.9em;
+  }
+  ul {
+    a {
+      &:hover {
+        color: rgb(49, 49, 49) !important;
+      }
+      li {
+        &:hover {
+          border-color: #e0a1a4 !important;
+        }
+        margin-top: 1em;
+        padding: 1.5em 2em 1em 2em;
+        blockquote {
+          p {
+            font-family: $default-body-font-family;
+            font-size: 0.9em;
+          }
+          padding-top: 0;
+          padding-bottom: 0;
+        }
+      }
+    }
+  }
+}

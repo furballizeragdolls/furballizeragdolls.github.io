@@ -1,0 +1,43 @@
+#post {
+  .container {
+    margin-top: 30px;
+    width: 65%;
+  }
+  .article-title {
+    h2 {
+      font-weight: 900;
+    }
+    .date {
+      font-family: $default-body-font-family;
+      font-weight: 300;
+      margin-top: 1em;
+      margin-bottom: 1em;
+    }
+  }
+  .content {
+    margin-top: 2em;
+    margin-bottom: 3em;
+    font-family: $default-body-font-family;
+    font-size: 1.15em;
+    p {
+      font-family: $default-body-font-family;
+      font-size: inherit;
+    }
+    blockquote {
+      font-family: $default-body-font-family;
+      font-size: 0.9em;
+      width: 80%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    table{
+      tbody tr td {
+        font-family: $default-body-font-family;
+        font-size: inherit;
+      }
+      tbody tr:first-child td {
+        border: none;
+      }
+    }
+  }
+}
