@@ -350,7 +350,7 @@ p {
     margin-bottom: 3em;
     font-family: $default-body-font-family;
     font-size: 1.15em;
-    p {
+    p, blockquote {
       font-family: $default-body-font-family;
       font-size: inherit;
     }
