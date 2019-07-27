@@ -1,6 +1,12 @@
 #kings-and-queens {
   .container {
     width: 80%;
+    @media screen and (max-width: 1024px) {
+      width: 85% !important;
+    }
+    @media screen and (max-width: 768px) {
+      width: 100% !important;
+    }
   }
   .team {
     .row {
