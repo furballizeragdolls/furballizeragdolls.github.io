@@ -34,3 +34,10 @@ Josephine 康復回到 Mrs. Pennels 家不久後又開始發情懷孕，這時�
 {:.blockquote-medium}
 
 Ann 還有沒有繼續拿其他 Josephine 的小貓來配種就不得而知了。在 Ann 得到 Fugianna 之後，有一次 Josephine 為了保護自己的小貓，又跟主人 Mrs. Pennel 的愛犬打架結果 Josephine 與整胎小貓就被 Mrs. Pennel 的先生殺死了，隨著 Josephine 的死亡，布偶貓之母的孕育傳奇也嘎然而止。
+
+---
+
+#### References:
+
+* [Ragdoll Historical Society](http://ragdollhistoricalsociety.org/)
+* [Ragdoll Fanciers Club International](http://rfci.org/)
