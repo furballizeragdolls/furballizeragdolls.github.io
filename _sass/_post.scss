@@ -13,6 +13,9 @@
   .copyright {
     color: #5c5c5c;
     margin-bottom: 2em;
+    @media screen and (max-width: 1024px) {
+      font-size: 0.7em;
+    }
   }
   .image-medium {
     width: 65%;
