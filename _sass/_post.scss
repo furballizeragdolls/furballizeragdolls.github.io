@@ -1,7 +1,29 @@
 #post {
+  img {
+    max-width: 100%;
+    height: auto;
+    @media screen and (max-width: 1024px) {
+      width: 85% !important;
+    }
+    @media screen and (max-width: 768px) {
+      width: 100% !important;
+    }
+  }
+  .image-medium {
+    width: 65%;
+  }
+  .blockquote-medium {
+    width: 65% !important;
+  }
   .container {
     margin-top: 30px;
     width: 65%;
+    @media screen and (max-width: 1024px) {
+      width: 85% !important;
+    }
+    @media screen and (max-width: 768px) {
+      width: 100% !important;
+    }
   }
   .article-title {
     h2 {
@@ -29,6 +51,12 @@
       width: 80%;
       margin-left: auto;
       margin-right: auto;
+      @media screen and (max-width: 1024px) {
+        width: 85% !important;
+      }
+      @media screen and (max-width: 768px) {
+        width: 100% !important;
+      }
     }
     table{
       tbody tr td {
