@@ -2,6 +2,13 @@
   .container {
     margin-top: 25px;
     width: 65%;
+
+    @media screen and (max-width: 1024px) {
+      width: 85%;
+    }
+    @media screen and (max-width: 768px) {
+      width: 100%;
+    }
   }
   .title {
     line-height: 38px;
@@ -11,12 +18,20 @@
     font-size: 1.5em;
     font-weight: bold;
     float: left;
+    @media screen and (max-width: 768px) {
+      font-size: 1.4em;
+      float: none;
+    }
   }
   .date {
     font-family: $default-body-font-family;
     float: left;
     margin-left: 1em;
     font-size: 0.9em;
+    @media screen and (max-width: 768px) {
+      font-size: 1em;
+      float: none;
+    }
   }
   ul {
     a {
@@ -33,6 +48,8 @@
           p {
             font-family: $default-body-font-family;
             font-size: 0.9em;
+            max-height: 50px;
+            overflow: hidden;
           }
           padding-top: 0;
           padding-bottom: 0;

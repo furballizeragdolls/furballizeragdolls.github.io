@@ -47,7 +47,7 @@ p {
 .title-area {
   text-align: left !important;
   h1 {
-    @media screen and (max-width: 765px) {
+    @media screen and (max-width: 768px) {
       font-size: 2.5em !important;
     }
   }
@@ -55,7 +55,7 @@ p {
     text-align: center;
   }
   p {
-    @media screen and (max-width: 765px) {
+    @media screen and (max-width: 768px) {
       font-size: 0.9em !important;
     }
   }
