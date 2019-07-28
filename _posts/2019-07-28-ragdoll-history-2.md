@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 布偶貓歷史（二）— 新品種的誕生
+published: false
 ---
 
 布偶貓的起源對後人來說實在是太模糊而不可思議了，不過能夠確定的是，Josephine 的慘劇發生後，Ann 剩下的三隻基礎種貓 Daddy Warbucks、Buckwheat、Fugianna 都是 Josephine 的後代，從往後的血統推回去都可以找到這三隻貓的血統。Ann 將現有不同外觀的兩隻母貓生出的小貓劃分成兩組。Fugianna 與她生的小貓稱為 "light side"，Buckwheat 與她生的小貓則稱為 "dark side"。Ann 說過，light side 的貓有比較長的嘴套與耳朵但個性比較好，而 dark side 的臉部比較寬，耳朵比較短有點像喜馬拉雅貓的樣子。Ann 說過 light side 與 dark side 結合才能得出正確的布偶貓。這裡要解釋一下為什麼會有正確的布偶貓這種說法呢？因為在 Ann 眼中，手套色 (mitted) 才是她心中真正布偶貓的樣子！雖然現在講到布偶貓很多人腦中都會先跳出雙色布偶貓 (bicolor)，認為雙色才是布偶貓的經典款，但其實 Ann 當時只把雙色當作品種培育的過渡型態甚至巴不得雙色消失殆盡呢！
