@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 布偶貓歷史（一）— Ann Baker 與 Josephine
+published: true
 ---
 
 1964 年左右，Ann Baker 在美國的 Riverside, California 開始培育布偶貓。Ann 說過，Josephine 是她鄰居 Mrs. Pennels 的貓，外觀有點像安哥拉貓。因為放養的關係，時常在社區裡可以看到這隻貓的身影。Josephine 生了很多小貓，一直以來這些小貓的個性都像媽媽 Josephine 一樣很有野性。直到有一天 Josephine 被車撞倒在路邊，不久後在附近大學裡工作的鄰居們發現了受傷的 Josephine 於是把她帶到醫院醫治。Ann 說過，Josephine 車禍時頭部受傷情況嚴重，雖然痊癒了，但失去了一隻眼睛。
