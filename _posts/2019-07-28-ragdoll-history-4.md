@@ -46,6 +46,9 @@ Ann 最大的擔心就是失去對布偶貓品種的完全掌控權，她希望�
 
 ---
 
+{% capture ragroll-history-series %}{% include ragroll-history-series.md %}{% endcapture %}
+{{ ragroll-history-series | markdownify }}
+
 {:.references}
 #### References
 

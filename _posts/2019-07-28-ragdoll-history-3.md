@@ -25,6 +25,9 @@ Ann 雖然身為布偶貓培育人，但她對布偶貓的基因了解甚少，�
 
 ---
 
+{% capture ragroll-history-series %}{% include ragroll-history-series.md %}{% endcapture %}
+{{ ragroll-history-series | markdownify }}
+
 {:.references}
 #### References
 

@@ -28,6 +28,9 @@ published: true
 
 ---
 
+{% capture ragroll-history-series %}{% include ragroll-history-series.md %}{% endcapture %}
+{{ ragroll-history-series | markdownify }}
+
 {:.references}
 #### References
 
