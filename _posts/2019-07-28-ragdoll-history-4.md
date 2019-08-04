@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 布偶貓歷史（四）— 綻放光彩
-published: false
+published: true
 ---
 
 經過幾年的繁育，1969 年 Ann 第一次將一對種貓賣給一對夫婦 Denny 與 Laura Dayton。Dayton 夫婦在加州當地的報紙上看見了 Ann 與布偶貓的資訊。Denny 一直以來都很討厭貓，不過大型溫馴的布偶貓顛覆了他對貓的想像也引起了他的興趣，他就決定去 Ann 的貓舍一探究竟。一見到這個新品種後他們就愛上並決定購買了一對種貓，分別是公貓 Buddy 與母貓 Rosie。Laura 希望以植物花朵名稱為往後的小貓們命名，所以將貓舍取名為 Blossom-Time。1969-1973 年間 Dayton 夫妻很努力要與 Ann 合作來幫忙推廣布偶貓，但 Ann 很堅持要保有全部的主控權並為此在 1971 年成立 International Ragdoll Cat Association (IRCA) 且以此作為商業登記。為了賺錢，Ann 開始以加盟事業的形式管理那些跟她購買布偶種貓的貓舍，並在 1975 年用布偶貓申請專利核准（專利字號 1026916）。
