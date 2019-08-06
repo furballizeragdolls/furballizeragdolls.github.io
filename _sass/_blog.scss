@@ -33,27 +33,44 @@
       float: none;
     }
   }
-  ul {
-    a {
-      &:hover {
-        color: rgb(49, 49, 49) !important;
-      }
-      li {
+  .posts {
+    ul {
+      a {
         &:hover {
-          border-color: #e0a1a4 !important;
+          color: rgb(49, 49, 49) !important;
         }
-        margin-top: 1em;
-        padding: 1.5em 2em 1em 2em;
-        blockquote {
-          p {
-            font-family: $default-body-font-family;
-            font-size: 0.9em;
-            max-height: 50px;
-            overflow: hidden;
+        li {
+          &:hover {
+            border-color: #e0a1a4;
           }
-          padding-top: 0;
-          padding-bottom: 0;
+          margin-top: 1em;
+          padding: 1.5em 2em 1em 2em;
+          blockquote {
+            p {
+              font-family: $default-body-font-family;
+              font-size: 0.9em;
+              max-height: 50px;
+              overflow: hidden;
+            }
+            padding-top: 0;
+            padding-bottom: 0;
+          }
         }
+      }
+    }
+  }
+  .pagination {
+    .page-item {
+      a {
+        font-family: $default-body-font-family;
+        &:hover {
+          color: $male-color !important;
+          background-color: #f3f3f3 !important;
+          border-color: #d0cdbc !important;
+        }
+      }
+      span {
+        font-family: $default-body-font-family;
       }
     }
   }
