@@ -42,15 +42,15 @@ layout: default
                 {% for page in (1..paginator.total_pages) %}
                 {% if page == paginator.page %}
                 <li class="page-item active">
-                    <span>{{ page }}<span class="sr-only">(current)</span></span>
+                    <span><b>{{ page }}</b><span class="sr-only">(current)</span></span>
                 </li>
                 {% elsif page == 1 %}
                 <li class="page-item">
-                    <a href="{{ paginator.previous_page_path | relative_url }}">{{ page }}</a>
+                    <a href="{{ paginator.previous_page_path | relative_url }}"><b>{{ page }}</b></a>
                 </li>
                 {% else %}
                 <li class="page-item">
-                    <a href="{{ site.paginate_path | relative_url | replace: ':num', page }}">{{ page }}</a>
+                    <a href="{{ site.paginate_path | relative_url | replace: ':num', page }}"><b>{{ page }}</b></a>
                 </li>
                 {% endif %}
                 {% endfor %}
