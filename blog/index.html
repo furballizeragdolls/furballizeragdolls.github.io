@@ -36,7 +36,7 @@ layout: default
             <ul class="pagination">
                 {% if paginator.previous_page %}
                 <li class="page-item">
-                    <a href="{{ paginator.previous_page_path | relative_url }}">上一頁</a>
+                    <a href="{{ paginator.previous_page_path | relative_url }}"><i class="fas fa-arrow-left"></i></a>
                 </li>
                 {% endif %}
 
@@ -58,7 +58,7 @@ layout: default
 
                 {% if paginator.next_page %}
                 <li class="page-item">
-                    <a href="{{ paginator.next_page_path | relative_url }}">下一頁</a>
+                    <a href="{{ paginator.next_page_path | relative_url }}"><i class="fas fa-arrow-right"></i></a>
                 </li>
                 {% endif %}
             </ul>
