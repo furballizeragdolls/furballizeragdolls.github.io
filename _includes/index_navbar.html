@@ -24,8 +24,12 @@
                 <li>
                     <a href="#application" class="scrolly">Application</a>
                 </li>
-                <li>
-                    <a href="/blog">Blog</a>
+                <li class="dropdown">
+                    <a class="dropdown-toggle" href="/blog" aria-expanded="false" data-toggle="dropdown">Blog</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="/blog"><i class="fas fa-stream"></i>文章列表</a></li>
+                        <li><a href="{{ site.baseurl }}{% post_url 2019-07-26-ragdoll-history-1 %}"><i class="fas fa-crown"></i>布偶貓的歷史</a></li>
+                    </ul>
                 </li>
                 <li>
                     <a href="faq">FAQ</a>

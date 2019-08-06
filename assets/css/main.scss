@@ -18,7 +18,7 @@ a {
   color: rgb(78, 78, 78);
   &:hover {
     color: $default-color !important;
-    border-color: $default-color !important;
+    border-color: $default-color;
   }
 
   &.btn-danger:hover {
@@ -31,6 +31,19 @@ p {
     text-decoration: underline;
     text-decoration-style: dotted;
     font-size: 1em;
+  }
+}
+
+.dropdown {
+  ul.dropdown-menu {
+    i {
+      margin-right: 0.7em !important;
+    }
+  }
+  a {
+    &:hover {
+      border-color: none;
+    }
   }
 }
 
