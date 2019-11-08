@@ -35,6 +35,12 @@
       font-size: 1.15em;
       font-weight: bold;
     }
+    .subtitle {
+      font-size: 1.1em;
+      font-family: $default-body-font-family;
+      color: rgb(78, 78, 78);
+      font-weight: normal;
+    }
     .description {
       li {
         font-size: 0.95em;
