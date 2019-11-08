@@ -115,12 +115,12 @@ p {
   }
 }
 
-#header-background {
-  background-position: 0 -60px;
-  @media screen and (max-width: 768px) {
-    background-position: none;
-  }
-}
+// #header-background {
+//   background-position: 0 -60px;
+//   @media screen and (max-width: 768px) {
+//     background-position: none;
+//   }
+// }
 
 .filter.filter-color-gray:before {
   background: rgba(151, 151, 151, 0.2);
