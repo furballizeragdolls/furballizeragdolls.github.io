@@ -163,8 +163,12 @@ layout: index
                                     </div>
                                 </a>
                                 <div class="certificate">
-                                    <a href="#" data-toggle="lightbox" data-type="image" class="btn btn-danger btn-fill btn-md disabled">基因檢測報告</a>
+                                    <a href="/assets/img/dolly-certificates-gallery/dolly-1.png" data-toggle="lightbox" data-type="image" class="btn btn-danger btn-fill btn-md" data-gallery="dolly-certificates-gallery">基因檢測報告</a>
                                 </div>
+                                <!-- dolly certificate gallery -->
+                                {% for i in (2..2) %}
+                                <div data-remote="/assets/img/dolly-certificates-gallery/dolly-{{ i }}.png" data-toggle="lightbox" data-gallery="dolly-certificates-gallery" class="col-sm-4"></div>
+                                {% endfor %}
                                 <!-- dolly gallery -->
                                 {% for i in (2..12) %}
                                 <div data-remote="/assets/img/dolly-gallery/dolly-{{ i }}.jpg" data-toggle="lightbox" data-gallery="dolly-gallery" class="col-sm-4"></div>
