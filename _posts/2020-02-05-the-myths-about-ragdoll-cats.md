@@ -10,7 +10,7 @@ published: true
 
 # 布偶貓是低致敏貓？
 
-布偶貓不是低致敏貓。國外比台灣多有這種誤解。如果你在找低致敏貓種，可以參考像是西伯利亞貓 Siberian、巴厘貓 Balinese、豹貓 Bengal、緬甸貓 Burmese、重點色短毛貓 Colorpoint Shorthair、柯尼斯卷毛猫 Cornish Rex、德文捲毛貓 Devon Rex、爪哇貓 Javanese、歐西貓 Ocicat、東方短毛貓 Oriental Shorthair、俄羅斯藍貓 Russian Blue、暹羅貓 Siamese、加拿大無毛貓 Sphynx。
+布偶貓不是低致敏貓。國外比台灣多有這種誤解。如果你在找低致敏貓種，可以參考像是西伯利亞貓 Siberian、巴厘貓 Balinese、豹貓 Bengal、緬甸貓 Burmese、重點色短毛貓 Colorpoint Shorthair、柯尼斯卷毛貓 Cornish Rex、德文捲毛貓 Devon Rex、爪哇貓 Javanese、歐西貓 Ocicat、東方短毛貓 Oriental Shorthair、俄羅斯藍貓 Russian Blue、暹羅貓 Siamese、加拿大無毛貓 Sphynx。
 
 # 布偶很少掉毛？
 
