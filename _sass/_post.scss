@@ -29,8 +29,13 @@
     text-decoration: underline;
   }
   ul.references {
-    font-size: 1.1em !important;
     padding-left: 2em;
+    li {
+      margin-bottom: 2px;
+    }
+    a {
+      font-size: 16px;
+    }
   }
   .container {
     margin-top: 30px;
@@ -62,10 +67,10 @@
       font-family: $default-body-font-family;
     }
     h1 {
-      font-size: 1.2em;
+      font-size: 1.3em;
     }
     p {
-      font-size: 16px;
+      font-size: 18px;
     }
     blockquote {
       font-family: $default-body-font-family;
