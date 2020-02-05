@@ -29,7 +29,7 @@
     text-decoration: underline;
   }
   ul.references {
-    font-size: 0.9em !important;
+    font-size: 1.1em !important;
     padding-left: 2em;
   }
   .container {
@@ -57,14 +57,18 @@
     margin-top: 2em;
     margin-bottom: 3em;
     font-family: $default-body-font-family;
-    font-size: 1.15em;
+    font-size: 16px;
     p, a, h1, h2, h3, h4 {
       font-family: $default-body-font-family;
-      font-size: inherit;
+    }
+    h1 {
+      font-size: 1.2em;
+    }
+    p {
+      font-size: 16px;
     }
     blockquote {
       font-family: $default-body-font-family;
-      font-size: 0.9em;
       margin-left: auto;
       margin-right: auto;
       @media screen and (max-width: 1024px) {
@@ -73,11 +77,13 @@
       @media screen and (max-width: 768px) {
         width: 100% !important;
       }
+      p {
+        font-size: 0.9em;
+      }
     }
     table{
       tbody tr td {
         font-family: $default-body-font-family;
-        font-size: inherit;
       }
       tbody tr:first-child td {
         border: none;
