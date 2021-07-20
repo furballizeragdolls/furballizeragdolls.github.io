@@ -138,6 +138,19 @@ jQuery(document).ready(function () {
         ...galleryConfig,
         items: emmaGalleryItems
     });
+
+    // Charlie
+    const charlieGalleryItems = [{ src: '/assets/img/crispy-profile.jpg', srct: '/assets/img/crispy-profile.jpg'}];
+    for (const i of Array(0).keys()) {
+        imagePath = `/assets/img/charlie-gallery/charlie-${i + 1}.jpg`;
+        charlieGalleryItems.push(
+            { src: imagePath, srct: imagePath},
+        );
+    }
+    jQuery("#nanogallery_charlie").nanogallery2({
+        ...galleryConfig,
+        items: charlieGalleryItems
+    });
 });
 
 lightbox.option({
