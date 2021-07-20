@@ -59,3 +59,28 @@
     }
   }
 }
+
+.row.cat {
+  margin-bottom: 3em;
+  .nGY2GallerySub {
+    border-radius: 12px;
+    overflow: hidden !important;
+  }
+
+  .col-md-6.cat-description {
+    text-align: center;
+    h3.title {
+      font-size: 2em;
+      margin-bottom: 0.2em;
+    }
+    span.subtitle {
+      font-size: 0.7em;
+    }
+    p.description {
+      padding: 0 1em;
+      margin-top: 0.5em;
+      margin-bottom: 20px;
+      text-align: left;
+    }
+  }
+}
