@@ -9,29 +9,29 @@ title: Kings and Queens
           <div class="separator separator-danger"><i class="fas fa-paw"></i></div>
       </div>
 
+      <!-- Leo -->
       <div class="row cat">
         <div class="col-md-6 gallery">
           <div id="nanogallery_leo"></div>
         </div>
-
         <div class="col-md-6 cat-description">
             <h3 class="title">Leo <i class="fas fa-mars text-male"></i> <span class="subtitle">藍雙色 (Blue Bicolor)</span></h3>
             <span class="small-text text-male fullname">RW QGC Lynfield Rolling Leo of Furballize</span>
             <p class="description">
                 來自日本的 Leo 是美國與德國知名老牌貓舍的結晶。承襲了父母優秀的血統，不負眾望地在 2019 TICA 國際賽區得到 RW 頭銜並為年度最佳成貓組第三名 (Third Best Cat of the Year)、最佳長毛貓第一名 (Best Longhair of the Year)、最佳布偶貓第一名 (Best Ragdoll of the Year) 和最佳藍雙色布偶貓第一名 (Best Blue Point/Bicolor Ragdoll of the Year)。Leo 的骨架粗壯，毛質是標準柔軟的兔毛觸感，長度適中從不需要擔心打結的問題，各個方面都完整呈現布偶貓品種該有的樣態。個性溫柔的他，平時在家路倒、討摸的技能堪稱一流。
             </p>
-            <!-- <div class="certificate">
-              <a href="/assets/img/leo-certificates-gallery/leo-1.png" data-toggle="lightbox" data-type="image" data-gallery="leo-certificates-gallery" class="btn btn-danger btn-fill btn-md">基因檢測報告</a>
-            </div> -->
             <div class="certificate">
               <a href="/assets/img/leo-certificates-gallery/leo-1.png" data-lightbox="leo-certificates-gallery" class="btn btn-danger btn-fill btn-md">基因檢測報告</a>
+              {% for i in (2..6) %}
+              <a href="/assets/img/leo-certificates-gallery/leo-{{ i }}.jpg" data-lightbox="leo-certificates-gallery"></a>
+              {% endfor %}
             </div>
-            {% for i in (2..6) %}
-            <a href="/assets/img/leo-certificates-gallery/leo-{{ i }}.jpg" data-lightbox="leo-certificates-gallery"></a>
-            {% endfor %}
         </div>
       </div>
 
+      <hr>
+
+      <!-- LuLu -->
       <div class="row cat">
         <div class="col-md-6 cat-description">
           <h3 class="title">LuLu <i class="fas fa-mars text-female"></i> <span class="subtitle">藍手套色 (Blue Mitted)</span></h3>
@@ -40,15 +40,16 @@ title: Kings and Queens
             LuLu 的可愛無法言喻！這位可愛優雅兼具的藍瞳美人來自韓國，興趣是吃東西，長期擔任波波球貓舍行政主廚，食物準備太慢會大叫抗議！適應力強，活潑愛玩，不論你的聚會有多少人，大方友善的 LuLu 都一定要參加！
           </p>
           <div class="certificate">
-            <a href="/assets/img/momo-certificates-gallery/momo-1.jpg" data-toggle="lightbox" data-type="image" data-gallery="momo-certificates-gallery" class="btn btn-danger btn-fill btn-md">基因檢測報告</a>
+            <a href="/assets/img/lulu-certificates-gallery/lulu-1.png" data-lightbox="lulu-certificates-gallery" class="btn btn-danger btn-fill btn-md">基因檢測報告</a>
           </div>
-          {% for i in (2..2) %}
-          <div data-remote="/assets/img/momo-certificates-gallery/momo-{{ i }}.jpg" data-toggle="lightbox" data-gallery="momo-certificates-gallery" class="col-sm-4"></div>
-          {% endfor %}
         </div>
         <div class="col-md-6 gallery">
           <div id="nanogallery_lulu"></div>
         </div>
       </div>
+
+      <hr>
+
+      <!--  -->
   </div>
 </div>

@@ -73,22 +73,16 @@ jQuery(document).ready(function () {
         items: leoGalleryItems
     });
 
+    const luluGalleryItems = [{ src: '/assets/img/lulu-profile.jpg', srct: '/assets/img/lulu-profile.jpg'}];
+    for (const i of Array(13).keys()) {
+        imagePath = `/assets/img/lulu-gallery/lulu-${i + 1}.jpg`;
+        luluGalleryItems.push(
+            { src: imagePath, srct: imagePath},
+        );
+    }
     jQuery("#nanogallery_lulu").nanogallery2({
         ...galleryConfig,
-        items: [
-            { src: '/assets/img/lulu-profile.jpg', srct: '/assets/img/lulu-profile.jpg'},
-            { src: '/assets/img/lulu-gallery/lulu-1.jpg', srct: '/assets/img/lulu-gallery/lulu-1.jpg'},
-            { src: '/assets/img/lulu-gallery/lulu-2.jpg', srct: '/assets/img/lulu-gallery/lulu-2.jpg'},
-            { src: '/assets/img/lulu-gallery/lulu-3.jpg', srct: '/assets/img/lulu-gallery/lulu-3.jpg'},
-            { src: '/assets/img/lulu-gallery/lulu-3.jpg', srct: '/assets/img/lulu-gallery/lulu-3.jpg'},
-            { src: '/assets/img/lulu-gallery/lulu-3.jpg', srct: '/assets/img/lulu-gallery/lulu-3.jpg'},
-            { src: '/assets/img/lulu-gallery/lulu-3.jpg', srct: '/assets/img/lulu-gallery/lulu-3.jpg'},
-            { src: '/assets/img/lulu-gallery/lulu-3.jpg', srct: '/assets/img/lulu-gallery/lulu-3.jpg'},
-            { src: '/assets/img/lulu-gallery/lulu-3.jpg', srct: '/assets/img/lulu-gallery/lulu-3.jpg'},
-            { src: '/assets/img/lulu-gallery/lulu-3.jpg', srct: '/assets/img/lulu-gallery/lulu-3.jpg'},
-            { src: '/assets/img/lulu-gallery/lulu-3.jpg', srct: '/assets/img/lulu-gallery/lulu-3.jpg'},
-            { src: '/assets/img/lulu-gallery/lulu-3.jpg', srct: '/assets/img/lulu-gallery/lulu-3.jpg'}
-        ]
+        items: luluGalleryItems
     });
 });
 
