@@ -99,6 +99,19 @@ jQuery(document).ready(function () {
         ...galleryConfig,
         items: dollyGalleryItems
     });
+
+    // MoMo
+    const momoGalleryItems = [{ src: '/assets/img/momo-profile.jpg', srct: '/assets/img/momo-profile.jpg'}];
+    for (const i of Array(10).keys()) {
+        imagePath = `/assets/img/momo-gallery/momo-${i + 1}.jpg`;
+        momoGalleryItems.push(
+            { src: imagePath, srct: imagePath},
+        );
+    }
+    jQuery("#nanogallery_momo").nanogallery2({
+        ...galleryConfig,
+        items: momoGalleryItems
+    });
 });
 
 lightbox.option({
