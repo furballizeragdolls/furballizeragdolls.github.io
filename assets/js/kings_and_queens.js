@@ -61,6 +61,7 @@ const galleryConfig = {
 }
 
 jQuery(document).ready(function () {
+    // Leo
     const leoGalleryItems = [{ src: '/assets/img/leo-profile.jpg', srct: '/assets/img/leo-profile.jpg'}];
     for (const i of Array(9).keys()) {
         imagePath = `/assets/img/leo-gallery/leo-${i + 1}.jpg`;
@@ -73,6 +74,7 @@ jQuery(document).ready(function () {
         items: leoGalleryItems
     });
 
+    // LuLu
     const luluGalleryItems = [{ src: '/assets/img/lulu-profile.jpg', srct: '/assets/img/lulu-profile.jpg'}];
     for (const i of Array(13).keys()) {
         imagePath = `/assets/img/lulu-gallery/lulu-${i + 1}.jpg`;
@@ -83,6 +85,19 @@ jQuery(document).ready(function () {
     jQuery("#nanogallery_lulu").nanogallery2({
         ...galleryConfig,
         items: luluGalleryItems
+    });
+
+    // Dolly
+    const dollyGalleryItems = [{ src: '/assets/img/dolly-profile.jpg', srct: '/assets/img/dolly-profile.jpg'}];
+    for (const i of Array(12).keys()) {
+        imagePath = `/assets/img/dolly-gallery/dolly-${i + 1}.jpg`;
+        dollyGalleryItems.push(
+            { src: imagePath, srct: imagePath},
+        );
+    }
+    jQuery("#nanogallery_dolly").nanogallery2({
+        ...galleryConfig,
+        items: dollyGalleryItems
     });
 });
 
