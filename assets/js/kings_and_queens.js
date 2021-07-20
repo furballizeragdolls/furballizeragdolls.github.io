@@ -125,6 +125,19 @@ jQuery(document).ready(function () {
         ...galleryConfig,
         items: crispyGalleryItems
     });
+
+    // Emma
+    const emmaGalleryItems = [{ src: '/assets/img/crispy-profile.jpg', srct: '/assets/img/crispy-profile.jpg'}];
+    for (const i of Array(0).keys()) {
+        imagePath = `/assets/img/emma-gallery/emma-${i + 1}.jpg`;
+        emmaGalleryItems.push(
+            { src: imagePath, srct: imagePath},
+        );
+    }
+    jQuery("#nanogallery_emma").nanogallery2({
+        ...galleryConfig,
+        items: emmaGalleryItems
+    });
 });
 
 lightbox.option({
