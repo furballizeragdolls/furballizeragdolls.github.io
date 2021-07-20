@@ -112,6 +112,19 @@ jQuery(document).ready(function () {
         ...galleryConfig,
         items: momoGalleryItems
     });
+
+    // Crispy
+    const crispyGalleryItems = [{ src: '/assets/img/crispy-profile.jpg', srct: '/assets/img/crispy-profile.jpg'}];
+    for (const i of Array(0).keys()) {
+        imagePath = `/assets/img/crispy-gallery/crispy-${i + 1}.jpg`;
+        crispyGalleryItems.push(
+            { src: imagePath, srct: imagePath},
+        );
+    }
+    jQuery("#nanogallery_crispy").nanogallery2({
+        ...galleryConfig,
+        items: crispyGalleryItems
+    });
 });
 
 lightbox.option({
