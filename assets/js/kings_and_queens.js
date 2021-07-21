@@ -1,12 +1,18 @@
 const galleryConfig = {
     galleryMosaic : [
-        { w: 1.4, h: 1.4, c: 1, r: 1 }
+        { w: 2, h: 2, c: 1, r: 1 },
+        { w: 1, h: 1, c: 3, r: 1 },
+        { w: 1, h: 1, c: 3, r: 2 }
     ],
     galleryMosaicXS : [
-        { w: 1.4, h: 1.4, c: 1, r: 1 }
+        { w: 2, h: 2, c: 1, r: 1 },
+        { w: 1, h: 1, c: 3, r: 1 },
+        { w: 1, h: 1, c: 3, r: 2 }
     ],
     galleryMosaicSM : [
-        { w: 1.4, h: 1.4, c: 1, r: 1 }
+        { w: 2, h: 2, c: 1, r: 1 },
+        { w: 1, h: 1, c: 3, r: 1 },
+        { w: 1, h: 1, c: 3, r: 2 }
     ],
     galleryMaxRows: 1,
     galleryDisplayMode: 'rows',
