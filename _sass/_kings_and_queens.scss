@@ -84,18 +84,21 @@
   }
 }
 
-.avatar {
-  max-width: 350px !important;
-}
-
-.buttons {
-  text-align: center;
-  .gallery {
-    display:inline-block;
+.cat {
+  .avatar {
+    max-width: 300px !important;
   }
 
-  .certificate {
-    margin-left: 10px;
-    display:inline-block;
+  .buttons {
+    text-align: center;
+    .gallery {
+      display:inline-block;
+    }
+
+    .certificate {
+      margin-left: 10px;
+      display:inline-block;
+    }
   }
+
 }

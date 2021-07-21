@@ -63,7 +63,7 @@ const galleryConfig = {
 jQuery(document).ready(function () {
     // Leo
     const leoGalleryItems = [{ src: '/assets/img/leo-profile.jpg', srct: '/assets/img/leo-profile.jpg'}];
-    for (const i of Array(9).keys()) {
+    for (const i of Array(8).keys()) {
         imagePath = `/assets/img/leo-gallery/leo-${i + 1}.jpg`;
         leoGalleryItems.push(
             { src: imagePath, srct: imagePath},
