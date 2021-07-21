@@ -3,8 +3,8 @@
     <path d="M0 0h512v512H0z"/>
   </clipPath>
   <g clip-path="url(#tw-a)">
-    <path fill="red" d="M0 0h768v512H0z"/>
-    <path fill="#000095" d="M0 0h384v256H0z"/>
+    <path fill="#c70000" d="M0 0h768v512H0z"/>
+    <path fill="#192f5d" d="M0 0h384v256H0z"/>
     <g fill="#fff">
       <path d="M164.3 135.4l-2.7 10.2 10.1 2.7-2-7.4zM214.3 140.9l-2 7.4 10.1-2.7-2.7-10.2zM169.7 115.1l-5.4 5.5 2 7.4z"/>
       <path d="M166.3 128l-2 7.4 5.4 5.5z"/>
@@ -27,7 +27,7 @@
       <path d="M204.9 80L192 32l-12.9 48L192 92.9z"/>
       <path d="M184.6 100.3l7.4-7.4L179.1 80l-4.7 17.6z"/>
     </g>
-    <circle cx="192" cy="128" r="54.4" fill="#000095"/>
+    <circle cx="192" cy="128" r="54.4" fill="#192f5d"/>
     <circle cx="192" cy="128" r="48" fill="#fff"/>
   </g>
 </svg>
