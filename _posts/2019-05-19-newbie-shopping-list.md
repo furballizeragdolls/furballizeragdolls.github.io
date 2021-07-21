@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: blog
 title: 帶小貓回家 – 新手貓奴購物清單
 published: true
 ---

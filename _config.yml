@@ -32,7 +32,7 @@ kramdown:
   input: GFM
 syntax_highlighter: rouge
 exclude: ['README.md']
-permalink: pretty
+permalink: /:categories/:year/:month/:day/:title
 sass:
   style: compressed
 

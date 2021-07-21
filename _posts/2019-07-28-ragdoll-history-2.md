@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: blog
 title: 布偶貓歷史（二）— 新品種的誕生
 published: true
 ---

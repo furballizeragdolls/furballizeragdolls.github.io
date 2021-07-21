@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: blog
 title: 布偶貓歷史（附錄）— Ragtime Cattery
 published: true
 ---

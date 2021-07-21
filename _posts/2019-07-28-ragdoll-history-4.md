@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: blog
 title: 布偶貓歷史（四）— 綻放光彩
 published: true
 ---

@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: blog
 title: 布偶貓歷史（三）— 充滿銅臭味的布偶貓
 published: true
 ---

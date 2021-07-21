@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: blog
 title: 布偶貓歷史（一）— Ann Baker 與 Josephine
 published: true
 ---

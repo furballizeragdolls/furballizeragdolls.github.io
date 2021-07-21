@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: blog
 title: 常見的布偶貓迷思
 published: true
 ---

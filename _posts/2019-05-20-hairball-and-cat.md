@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: blog
 title: 毛球與貓
 published: true
 ---
