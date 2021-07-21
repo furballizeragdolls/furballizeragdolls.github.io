@@ -12,6 +12,23 @@
     .row {
       margin-bottom: 0.8em;
     }
+    .buttons {
+      text-align: center;
+      .gallery {
+        display:inline-block;
+        a {
+          margin: 0 auto 2em;
+        }
+      }
+
+      .certificate {
+        margin-left: 10px;
+        display:inline-block;
+        a {
+          margin: 0 auto 2em;
+        }
+      }
+    }
   }
   .card {
     height: 100%;
@@ -51,54 +68,5 @@
     .hidden {
       display: none;
     }
-    .certificate {
-      text-align: center;
-      a {
-        margin: 0 auto 2em;
-      }
-    }
   }
-}
-
-.row.cat {
-  margin-bottom: 3em;
-  .nGY2GallerySub {
-    border-radius: 12px;
-    overflow: hidden !important;
-  }
-  .col-md-6.cat-description {
-    text-align: center;
-    h3.title {
-      font-size: 2em;
-      margin-bottom: 0.2em;
-    }
-    span.subtitle {
-      font-size: 0.7em;
-    }
-    p.description {
-      padding: 0 1em;
-      margin-top: 0.5em;
-      margin-bottom: 20px;
-      text-align: left;
-    }
-  }
-}
-
-.cat {
-  .avatar {
-    max-width: 300px !important;
-  }
-
-  .buttons {
-    text-align: center;
-    .gallery {
-      display:inline-block;
-    }
-
-    .certificate {
-      margin-left: 10px;
-      display:inline-block;
-    }
-  }
-
 }

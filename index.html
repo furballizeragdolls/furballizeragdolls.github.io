@@ -95,10 +95,9 @@ layout: index
 
                 <div class="team">
                     <div class="row">
-                        <div class="col-md-3"></div>
-                        <div class="col-md-6">
+                        <div class="col-md-4">
                             <div class="card card-member">
-                                <a href="/assets/img/leo-gallery/leo-1.jpg" data-toggle="lightbox" data-gallery="leo-gallery" data-type="image">
+                                <a>
                                     <div class="content">
                                         <div class="avatar img-male">
                                             <img alt="Leo profile photo" class="img-circle" src="/assets/img/leo-profile.jpg"/>
@@ -109,26 +108,66 @@ layout: index
                                             <h4 class="subtitle">藍雙色 (Blue Bicolor)</h4>
                                             <hr>
                                             <p class="description">
-                                                來自日本的 Leo 是美國與德國知名老牌貓舍的結晶。承襲了父母優秀的血統，不負眾望地在 2019 TICA 國際賽區得到 RW 頭銜並為年度最佳成貓組第三名 (Third Best Cat of the Year)、最佳長毛貓第一名 (Best Longhair of the Year)、最佳布偶貓第一名 (Best Ragdoll of the Year) 和最佳藍雙色布偶貓第一名 (Best Blue Point/Bicolor Ragdoll of the Year)。Leo 的骨架粗壯，毛質是標準柔軟的兔毛觸感，長度適中從不需要擔心打結的問題，各個方面都完整呈現布偶貓品種該有的樣態。個性溫柔的他，平時在家路倒、討摸的技能堪稱一流。
+                                                來自日本的 Leo 是美國與德國知名老牌貓舍的結晶。承襲了父母優秀的血統，不負眾望地在 2019 TICA 國際賽區得到 RW 頭銜並為年度最佳成貓組第三名、最佳長毛貓第一名、最佳布偶貓第一名和最佳藍雙色布偶貓第一名。Leo 的骨架粗壯，毛質是標準柔軟的兔毛觸感，長度適中從不需要擔心打結的問題，各個方面都完整呈現布偶貓品種該有的樣態。個性溫柔的他，平時在家路倒、討摸的技能堪稱一流。
                                             </p>
                                         </div>
                                     </div>
+                                    <div class="buttons">
+                                        <div class="gallery">
+                                            <a href="/assets/img/leo-gallery/leo-1.jpg" data-lightbox="leo-gallery" class="btn btn-danger btn-fill btn-md">更多照片</a>
+                                            {% for i in (2..8) %}
+                                            <a href="/assets/img/leo-gallery/leo-{{ i }}.jpg" data-lightbox="leo-gallery"></a>
+                                            {% endfor %}
+                                        </div>
+
+                                        <div class="certificate">
+                                            <a href="/assets/img/leo-certificates-gallery/leo-1.png" data-lightbox="leo-certificates-gallery" class="btn btn-danger btn-fill btn-md">基因檢測報告</a>
+                                            {% for i in (2..6) %}
+                                            <a href="/assets/img/leo-certificates-gallery/leo-{{ i }}.jpg" data-lightbox="leo-certificates-gallery"></a>
+                                            {% endfor %}
+                                        </div>
+                                    </div>
                                 </a>
-                                <div class="certificate">
-                                    <a href="/assets/img/leo-certificates-gallery/leo-1.png" data-toggle="lightbox" data-type="image" class="btn btn-danger btn-fill btn-md">基因檢測報告</a>
-                                </div>
-                                <!-- leo gallery -->
-                                {% for i in (2..14) %}
-                                <div data-remote="/assets/img/leo-gallery/leo-{{ i }}.jpg" data-toggle="lightbox" data-gallery="leo-gallery" class="col-sm-4"></div>
-                                {% endfor %}
                             </div>
                         </div>
-                        <div class="col-md-3"></div>
-                    </div>
-                    <div class="row">
                         <div class="col-md-4">
                             <div class="card card-member">
-                                <a href="/assets/img/lulu-gallery/lulu-1.jpg" data-toggle="lightbox" data-gallery="lulu-gallery" data-type="image">
+                                <a>
+                                    <div class="content">
+                                        <div class="avatar img-male">
+                                            <img alt="Charlie profile photo" class="img-circle" src="/assets/img/leo-profile.jpg"/>
+                                        </div>
+                                        <div>
+                                            <h3 class="title">Charlie <i class="fas fa-mars text-male"></i></h3>
+                                            <p class="small-text text-male">Charlie Hey Charlie</p>
+                                            <h4 class="subtitle">藍雙色 (Blue Bicolor)</h4>
+                                            <hr>
+                                            <p class="description">
+                                                來自日本的 Leo 是美國與德國知名老牌貓舍的結晶。承襲了父母優秀的血統，不負眾望地在 2019 TICA 國際賽區得到 RW 頭銜並為年度最佳成貓組第三名 (Third Best Cat of the Year)、最佳長毛貓第一名 (Best Longhair of the Year)、最佳布偶貓第一名 (Best Ragdoll of the Year) 和最佳藍雙色布偶貓第一名 (Best Blue Point/Bicolor Ragdoll of the Year)。
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="buttons">
+                                        <div class="gallery">
+                                            <a href="/assets/img/charlie-gallery/charlie-1.jpg" data-lightbox="charlie-gallery" class="btn btn-danger btn-fill btn-md">更多照片</a>
+                                            {% for i in (2..2) %}
+                                            <a href="/assets/img/charlie-gallery/charlie-{{ i }}.jpg" data-lightbox="charlie-gallery"></a>
+                                            {% endfor %}
+                                        </div>
+
+                                        <div class="certificate">
+                                            <a href="/assets/img/charlie-certificates-gallery/charlie-1.png" data-lightbox="charlie-certificates-gallery" class="btn btn-danger btn-fill btn-md">基因檢測報告</a>
+                                            {% for i in (2..2) %}
+                                            <a href="/assets/img/charlie-certificates-gallery/charlie-{{ i }}.png" data-lightbox="charlie-certificates-gallery"></a>
+                                            {% endfor %}
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card card-member">
+                                <a>
                                     <div class="content">
                                         <div class="avatar img-female">
                                             <img alt="LuLu profile photo" class="img-circle" src="/assets/img/lulu-profile.jpg"/>
@@ -143,22 +182,29 @@ layout: index
                                             </p>
                                         </div>
                                     </div>
+                                    <div class="buttons">
+                                        <div class="gallery">
+                                            <a href="/assets/img/lulu-gallery/lulu-1.jpg" data-lightbox="lulu-gallery" class="btn btn-danger btn-fill btn-md">更多照片</a>
+                                            {% for i in (2..13) %}
+                                            <a href="/assets/img/lulu-gallery/lulu-{{ i }}.jpg" data-lightbox="lulu-gallery"></a>
+                                            {% endfor %}
+                                        </div>
+
+                                        <div class="certificate">
+                                            <a href="/assets/img/lulu-certificates-gallery/lulu-1.png" data-lightbox="lulu-certificates-gallery" class="btn btn-danger btn-fill btn-md">基因檢測報告</a>
+                                        </div>
+                                    </div>
                                 </a>
-                                <div class="certificate">
-                                    <a href="/assets/img/lulu-certificates-gallery/lulu-1.png" data-toggle="lightbox" data-type="image" class="btn btn-danger btn-fill btn-md">基因檢測報告</a>
-                                </div>
-                                <!-- lulu gallery -->
-                                {% for i in (2..13) %}
-                                <div data-remote="/assets/img/lulu-gallery/lulu-{{ i }}.jpg" data-toggle="lightbox" data-gallery="lulu-gallery" class="col-sm-4"></div>
-                                {% endfor %}
                             </div>
                         </div>
+                    </div>
+                    <div class="row">
                         <div class="col-md-4">
                             <div class="card card-member">
-                                <a href="/assets/img/dolly-gallery/dolly-1.jpg" data-toggle="lightbox" data-gallery="dolly-gallery" data-type="image">
+                                <a>
                                     <div class="content">
                                         <div class="avatar img-female">
-                                            <img alt="Coming soon photo" class="img-circle" src="/assets/img/dolly-profile.jpg"/>
+                                            <img alt="Dolly profile photo" class="img-circle" src="/assets/img/dolly-profile.jpg"/>
                                         </div>
                                         <div>
                                             <h3 class="title">Dolly <i class="fas fa-venus text-female"></i></h3>
@@ -169,22 +215,26 @@ layout: index
                                         </div>
                                     </div>
                                 </a>
-                                <div class="certificate">
-                                    <a href="/assets/img/dolly-certificates-gallery/dolly-1.png" data-toggle="lightbox" data-type="image" class="btn btn-danger btn-fill btn-md" data-gallery="dolly-certificates-gallery">基因檢測報告</a>
+                                <div class="buttons">
+                                    <div class="gallery">
+                                        <a href="/assets/img/dolly-gallery/dolly-1.jpg" data-lightbox="dolly-gallery" class="btn btn-danger btn-fill btn-md">更多照片</a>
+                                        {% for i in (2..12) %}
+                                        <a href="/assets/img/dolly-gallery/dolly-{{ i }}.jpg" data-lightbox="dolly-gallery"></a>
+                                        {% endfor %}
+                                    </div>
+
+                                    <div class="certificate">
+                                        <a href="/assets/img/dolly-certificates-gallery/dolly-1.png" data-lightbox="dolly-certificates-gallery" class="btn btn-danger btn-fill btn-md">基因檢測報告</a>
+                                        {% for i in (2..2) %}
+                                        <a href="/assets/img/dolly-gallery/dolly-{{ i }}.jpg" data-lightbox="dolly-gallery"></a>
+                                        {% endfor %}
+                                    </div>
                                 </div>
-                                <!-- dolly certificate gallery -->
-                                {% for i in (2..2) %}
-                                <div data-remote="/assets/img/dolly-certificates-gallery/dolly-{{ i }}.png" data-toggle="lightbox" data-gallery="dolly-certificates-gallery" class="col-sm-4"></div>
-                                {% endfor %}
-                                <!-- dolly gallery -->
-                                {% for i in (2..12) %}
-                                <div data-remote="/assets/img/dolly-gallery/dolly-{{ i }}.jpg" data-toggle="lightbox" data-gallery="dolly-gallery" class="col-sm-4"></div>
-                                {% endfor %}
                             </div>
                         </div>
                         <div class="col-md-4">
                             <div class="card card-member">
-                                <a href="/assets/img/momo-gallery/momo-1.jpg" data-toggle="lightbox" data-gallery="momo-gallery" data-type="image">
+                                <a>
                                     <div class="content">
                                         <div class="avatar img-female">
                                             <img alt="MoMo profile photo" class="img-circle" src="/assets/img/momo-profile.jpg"/>
@@ -198,17 +248,89 @@ layout: index
                                         </div>
                                     </div>
                                 </a>
-                                <div class="certificate">
-                                    <a href="/assets/img/momo-certificates-gallery/momo-1.jpg" data-toggle="lightbox" data-type="image" data-gallery="momo-certificates-gallery" class="btn btn-danger btn-fill btn-md">基因檢測報告</a>
+                                <div class="buttons">
+                                    <div class="gallery">
+                                        <a href="/assets/img/momo-gallery/momo-1.jpg" data-lightbox="momo-gallery" class="btn btn-danger btn-fill btn-md">更多照片</a>
+                                        {% for i in (2..10) %}
+                                        <a href="/assets/img/momo-gallery/momo-{{ i }}.jpg" data-lightbox="momo-gallery"></a>
+                                        {% endfor %}
+                                    </div>
+
+                                    <div class="certificate">
+                                        <a href="/assets/img/momo-certificates-gallery/momo-1.jpg" data-lightbox="momo-certificates-gallery" class="btn btn-danger btn-fill btn-md">基因檢測報告</a>
+                                        {% for i in (2..2) %}
+                                        <a href="/assets/img/momo-gallery/momo-{{ i }}.jpg" data-lightbox="momo-gallery"></a>
+                                        {% endfor %}
+                                    </div>
                                 </div>
-                                <!-- momo certificate gallery -->
-                                {% for i in (2..2) %}
-                                <div data-remote="/assets/img/momo-certificates-gallery/momo-{{ i }}.jpg" data-toggle="lightbox" data-gallery="momo-certificates-gallery" class="col-sm-4"></div>
-                                {% endfor %}
-                                <!-- momo gallery -->
-                                {% for i in (2..10) %}
-                                <div data-remote="/assets/img/momo-gallery/momo-{{ i }}.jpg" data-toggle="lightbox" data-gallery="momo-gallery" class="col-sm-4"></div>
-                                {% endfor %}
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card card-member">
+                                <a>
+                                    <div class="content">
+                                        <div class="avatar img-female">
+                                            <img alt="Crispy profile photo" class="img-circle" src="/assets/img/momo-profile.jpg"/>
+                                        </div>
+                                        <div>
+                                            <h3 class="title">Crispy <i class="fas fa-venus text-female"></i></h3>
+                                            <p class="small-text text-female">Furballize Crispy Love</p>
+                                            <h4 class="subtitle">藍雙色 (Blue Bicolor)</h4>
+                                            <hr>
+                                            <p class="description">Crispy Love aka 脆脆出生於波波球布偶貓舍，是一隻布偶貓奴理想中那隻熱愛玩你丟我撿的狗狗貓。從小就活潑可愛的她是我們家的康樂股長，對人類、對貓都非常友好、熱情、愛撒嬌，而且觀察力驚人，家中各個角落都在脆脆的掌握之中！</p>
+                                        </div>
+                                    </div>
+                                </a>
+                                <div class="buttons">
+                                    <div class="gallery">
+                                        <a href="/assets/img/crispy-gallery/crispy-1.jpg" data-lightbox="crispy-gallery" class="btn btn-danger btn-fill btn-md">更多照片</a>
+                                        {% for i in (2..10) %}
+                                        <a href="/assets/img/crispy-gallery/crispy-{{ i }}.jpg" data-lightbox="crispy-gallery"></a>
+                                        {% endfor %}
+                                    </div>
+
+                                    <div class="certificate">
+                                        <a href="/assets/img/crispy-certificates-gallery/crispy-1.png" data-lightbox="crispy-certificates-gallery" class="btn btn-danger btn-fill btn-md">基因檢測報告</a>
+                                        {% for i in (2..2) %}
+                                        <a href="/assets/img/crispy-gallery/crispy-{{ i }}.png" data-lightbox="crispy-gallery"></a>
+                                        {% endfor %}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="card card-member">
+                                <a>
+                                    <div class="content">
+                                        <div class="avatar img-female">
+                                            <img alt="Emma profile photo" class="img-circle" src="/assets/img/dolly-profile.jpg"/>
+                                        </div>
+                                        <div>
+                                            <h3 class="title">Emma <i class="fas fa-venus text-female"></i></h3>
+                                            <p class="small-text text-female">Furballize Lady Emma</p>
+                                            <h4 class="subtitle">海豹手套色 (Seal Mitted)</h4>
+                                            <hr>
+                                            <p class="description">Emma 小姐是波波球自家繁育的小寶貝。身為一隻經典的布偶海豹手套，Emma 各方面條件都非常優秀，從體格、毛量、到眼睛色調都令人驚艷。這位個性憨厚、溫柔的傻大妞，從來不調皮搗蛋，總是靜靜地用一雙湛藍的大眼睛觀察著大家。平時 Emma 跟脆脆感情極好，是一動一靜的好姐妹。</p>
+                                        </div>
+                                    </div>
+                                </a>
+                                <div class="buttons">
+                                    <div class="gallery">
+                                        <a href="/assets/img/emma-gallery/emma-1.jpg" data-lightbox="emma-gallery" class="btn btn-danger btn-fill btn-md">更多照片</a>
+                                        {% for i in (2..12) %}
+                                        <a href="/assets/img/emma-gallery/emma-{{ i }}.jpg" data-lightbox="emma-gallery"></a>
+                                        {% endfor %}
+                                    </div>
+
+                                    <div class="certificate">
+                                        <a href="/assets/img/emma-certificates-gallery/emma-1.png" data-lightbox="emma-certificates-gallery" class="btn btn-danger btn-fill btn-md">基因檢測報告</a>
+                                        {% for i in (2..2) %}
+                                        <a href="/assets/img/emma-gallery/emma-{{ i }}.png" data-lightbox="emma-gallery"></a>
+                                        {% endfor %}
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
