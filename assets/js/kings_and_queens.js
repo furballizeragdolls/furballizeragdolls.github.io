@@ -1,18 +1,12 @@
 const galleryConfig = {
     galleryMosaic : [
-        { w: 2, h: 2, c: 1, r: 1 },
-        { w: 1, h: 1, c: 3, r: 1 },
-        { w: 1, h: 1, c: 3, r: 2 }
+        { w: 2, h: 2, c: 1, r: 1 }
     ],
     galleryMosaicXS : [
-        { w: 2, h: 2, c: 1, r: 1 },
-        { w: 1, h: 1, c: 3, r: 1 },
-        { w: 1, h: 1, c: 3, r: 2 }
+        { w: 2, h: 2, c: 1, r: 1 }
     ],
     galleryMosaicSM : [
-        { w: 2, h: 2, c: 1, r: 1 },
-        { w: 1, h: 1, c: 3, r: 1 },
-        { w: 1, h: 1, c: 3, r: 2 }
+        { w: 2, h: 2, c: 1, r: 1 }
     ],
     galleryMaxRows: 1,
     galleryDisplayMode: 'rows',
@@ -72,6 +66,19 @@ jQuery(document).ready(function () {
     jQuery("#nanogallery_leo").nanogallery2({
         ...galleryConfig,
         items: leoGalleryItems
+    });
+
+    // Charlie
+    const charlieGalleryItems = [{ src: '/assets/img/crispy-profile.jpg', srct: '/assets/img/crispy-profile.jpg'}];
+    for (const i of Array(4).keys()) {
+        imagePath = `/assets/img/charlie-gallery/charlie-${i + 1}.jpg`;
+        charlieGalleryItems.push(
+            { src: imagePath, srct: imagePath},
+        );
+    }
+    jQuery("#nanogallery_charlie").nanogallery2({
+        ...galleryConfig,
+        items: charlieGalleryItems
     });
 
     // LuLu
@@ -137,19 +144,6 @@ jQuery(document).ready(function () {
     jQuery("#nanogallery_emma").nanogallery2({
         ...galleryConfig,
         items: emmaGalleryItems
-    });
-
-    // Charlie
-    const charlieGalleryItems = [{ src: '/assets/img/crispy-profile.jpg', srct: '/assets/img/crispy-profile.jpg'}];
-    for (const i of Array(4).keys()) {
-        imagePath = `/assets/img/charlie-gallery/charlie-${i + 1}.jpg`;
-        charlieGalleryItems.push(
-            { src: imagePath, srct: imagePath},
-        );
-    }
-    jQuery("#nanogallery_charlie").nanogallery2({
-        ...galleryConfig,
-        items: charlieGalleryItems
     });
 });
 
