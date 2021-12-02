@@ -125,6 +125,22 @@ p {
   background: rgba(151, 151, 151, 0.2);
 }
 
+#kittens {
+  .title-area {
+    margin-bottom: 3em;
+  }
+  .kitten-photos {
+    margin-bottom: 3em;
+    .avatar a {
+      opacity: 0.8;
+    }
+
+    .avatar a:hover {
+      opacity: 1;
+    }
+  }
+}
+
 .footer {
   padding: 1.5em;
   .contact {
