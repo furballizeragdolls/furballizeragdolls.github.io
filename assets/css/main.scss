@@ -134,8 +134,13 @@ p {
   }
   .kitten-photos {
     margin-bottom: 3em;
+    @media screen and (max-width: 768px) {
+      .avatar {
+        margin-bottom: 2em;
+      }
+    }
     .avatar a {
-      opacity: 0.8;
+      opacity: 0.9;
     }
 
     .avatar a:hover {
