@@ -10,7 +10,7 @@ baseurl:
 url: https://furballizeragdolls.github.io
 
 facebook:
-  publisher: https://www.facebook.com/furballchubbymeow
+  publisher: https://www.facebook.com/furballizeragdolls
 
 twitter:
   card: summary
@@ -18,7 +18,7 @@ twitter:
 social:
   name: Furballize Ragdolls Cattery 波波球布偶貓舍
   links:
-    - https://www.facebook.com/furballchubbymeow
+    - https://www.facebook.com/furballizeragdolls
 
 defaults:
   - scope:
