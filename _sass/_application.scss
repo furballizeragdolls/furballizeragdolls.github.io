@@ -3,9 +3,12 @@
     margin-bottom: 5em;
   }
   .button-get-started {
+    a {
+      opacity: 1;
+    }
     .btn-lg {
       font-size: 16px;
-      padding: 16px 20px;
+      padding: 16px 10px;
     }
   }
   .title-area {
@@ -14,6 +17,10 @@
   .description {
     font-size: 1.1em;
     text-align: left;
+    margin-bottom: -3em;
+    a {
+      color: white;
+    }
     @media screen and (max-width: 765px) {
       font-size: 1em !important;
     }
