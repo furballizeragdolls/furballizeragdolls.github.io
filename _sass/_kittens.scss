@@ -1,4 +1,7 @@
 #kittens {
+  .kitten-photos {
+    margin-bottom: 1em !important;
+  }
   font-size: 1em;
   .container {
     margin-top: 25px;
@@ -10,6 +13,7 @@
     margin-bottom: 1em;
   }
   ul {
+    padding-inline-start: 10px;
     li {
       font-size: 1.15em;
       padding-left: 0.5em;
